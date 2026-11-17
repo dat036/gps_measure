@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruộng Đông</name>
+    <Style id="measurement">
+      <LineStyle>
+        <color>ff50a112</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4750a112</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Ruộng Đông</name>
+      <description>Bờ tây giáp mương, "cột mốc" số 3</description>
+      <styleUrl>#measurement</styleUrl>
+      <ExtendedData>
+        <Data name="type">
+          <value>area</value>
+        </Data>
+        <Data name="area_m2">
+          <value>10410.04</value>
+        </Data>
+        <Data name="perimeter_m">
+          <value>407.73</value>
+        </Data>
+        <Data name="created_at">
+          <value>2026-09-29T08:00:00.000Z</value>
+        </Data>
+        <Data name="notes">
+          <value>Bờ tây giáp mương, "cột mốc" số 3</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>105.8542,21.0285,0 105.8552,21.0285,0 105.8552,21.0294,0 105.8542,21.0294,0 105.8542,21.0285,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>P3</name>
+      <Point>
+        <coordinates>105.8552,21.0294,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

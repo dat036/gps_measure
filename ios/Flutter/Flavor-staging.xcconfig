@@ -1,0 +1,9 @@
+// Flavor defaults. Environment-staging.xcconfig (generated from
+// env/staging.json by scripts/prepare_ios_env.py) overrides service keys.
+FLAVOR = staging
+BUNDLE_ID_SUFFIX = .stg
+APP_DISPLAY_NAME = LandMeasure Stg
+ADMOB_APP_ID_IOS = ca-app-pub-3940256099942544~1458002511
+MAPS_API_KEY_IOS =
+FACEBOOK_APP_ID_IOS =
+FACEBOOK_CLIENT_TOKEN_IOS =

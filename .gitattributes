@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ttf binary
+*.jar binary
+*.bat text eol=crlf
+# Export fixtures are compared byte for byte (CSV: BOM + CRLF).
+test/fixtures/export/** -text

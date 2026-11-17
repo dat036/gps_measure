@@ -1,0 +1,775 @@
+{
+  "@@locale": "en",
+  "appTitle": "LandMeasure",
+  "navHome": "Home",
+  "navSaved": "Saved",
+  "navSettings": "Setting",
+  "measurementTypeArea": "Area",
+  "measurementTypeDistance": "Distance",
+  "measurementTypeWalk": "Walk",
+  "screenMeasureArea": "Measure Area",
+  "screenMeasureDistance": "Measure Distance",
+  "screenWalk": "Walk & Measure",
+  "screenSave": "Save Measurement",
+  "screenDetail": "Measurement Detail",
+  "screenFullMap": "Map",
+  "screenEdit": "Edit Measurement",
+  "screenSaved": "Saved Measurements",
+  "screenSettings": "Setting",
+  "screenUnits": "Units",
+  "screenMapStyle": "Map Style",
+  "screenLanguage": "Language",
+  "screenPaywall": "Premium",
+  "ctaStartMeasuring": "Start Measuring",
+  "ctaStartArea": "Start Area Survey",
+  "ctaStartDistance": "Start Distance Measure",
+  "ctaStartWalk": "Start Walk Measure",
+  "ctaSaveMeasurement": "Save Measurement",
+  "ctaSaveRoute": "Save Route",
+  "ctaPause": "Pause",
+  "ctaResume": "Resume",
+  "ctaFinish": "Finish",
+  "actionCancel": "Cancel",
+  "actionSave": "Save",
+  "actionDiscard": "Discard",
+  "actionDelete": "Delete",
+  "actionReset": "Reset",
+  "actionOpenSettings": "Open Settings",
+  "actionKeepRecording": "Keep recording",
+  "actionKeepEditing": "Keep editing",
+  "dialogResetTitle": "Reset measurement?",
+  "dialogResetMessage": "This will remove all points.",
+  "dialogDiscardDraftTitle": "Discard this draft?",
+  "dialogDiscardDraftMessage": "All points and unsaved changes will be removed.",
+  "dialogDeleteTitle": "Delete measurement?",
+  "dialogDeleteMessage": "This measurement, its photos and notes will be permanently deleted.",
+  "dialogFinishWalkTitle": "Finish recording?",
+  "dialogFinishWalkMessage": "GPS tracking will stop.",
+  "dialogRenameTitle": "Rename Measurement",
+  "dialogDiscardChangesTitle": "Discard changes?",
+  "fabLayers": "Map layers",
+  "fabMyLocation": "My location",
+  "fabSearch": "Search place",
+  "fabCamera": "Take photo",
+  "gpsReady": "GPS Ready",
+  "gpsSearching": "Searching for GPS…",
+  "gpsLowAccuracy": "Low GPS accuracy",
+  "locationOff": "Location is off",
+  "locationOffMessage": "Turn on location to record your walk.",
+  "mapOffline": "Map connection unavailable — your points are safe",
+  "emptyNoMeasurementsTitle": "No measurements yet",
+  "emptyNoMeasurementsMessage": "Measure your first piece of land and it will appear here.",
+  "languageSystem": "System default",
+  "measureHintCrosshair": "Move the map to place the crosshair, then tap Add Point.",
+  "measureHintTap": "Tap the map to add points around the boundary.",
+  "toolbarUndo": "Undo",
+  "toolbarAddPoint": "Add Point",
+  "toolbarClose": "Close shape",
+  "toolbarReset": "Reset",
+  "toolbarAddAtMyLocation": "Add point at my location",
+  "resultArea": "Area",
+  "resultPerimeter": "Perimeter",
+  "resultAreaNeedsPoints": "Add at least 3 points to calculate area",
+  "resultPointCount": "{count, plural, =1{1 point} other{{count} points}}",
+  "@resultPointCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "edgesCross": "Edges cross — area may be incorrect",
+  "menuMore": "More options",
+  "menuInputCrosshair": "Add with crosshair",
+  "menuInputTap": "Add by tapping the map",
+  "menuShowEdgeLabels": "Show edge lengths",
+  "pointLabel": "Point {number}",
+  "@pointLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "pointDelete": "Delete point",
+  "pointDeselect": "Done",
+  "gpsLowAccuracyAdded": "GPS accuracy is low (±{meters} m). The point was added anyway.",
+  "@gpsLowAccuracyAdded": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "locationUnavailable": "Couldn't get your location. Try again outdoors.",
+  "locationPermissionDenied": "Location access is off. You can still measure by moving the map.",
+  "locationServiceOff": "Location is turned off on this device.",
+  "mapLayersTitle": "Map type",
+  "mapStyleStandard": "Standard",
+  "mapStyleSatellite": "Satellite",
+  "mapStyleTerrain": "Terrain",
+  "mapStyleHybrid": "Hybrid",
+  "draftSaveFailed": "Couldn't save your points. They will be saved again on the next change.",
+  "menuHelp": "Help",
+  "actionGotIt": "Got it",
+  "helpTitleArea": "How to measure area",
+  "helpTitleDistance": "How to measure distance",
+  "helpTitleWalk": "How to walk & measure",
+  "helpAreaSummary": "Add points around the boundary of your land.",
+  "helpDistanceSummary": "Add points along the route you want to measure.",
+  "helpWalkSummary": "Walk around the boundary while LandMeasure records your GPS path.",
+  "helpPhotoTip": "Use photos to document landmarks, boundaries, or site conditions.",
+  "helpAccuracyNote": "GPS and map measurement accuracy may vary depending on device, map imagery, and environment.",
+  "helpAreaStep1": "Move the map so the crosshair sits on a corner, then tap **Add Point**.",
+  "helpAreaStep2": "Add at least 3 points around the boundary. Drag a point to adjust it.",
+  "helpAreaStep3": "Tap **Close** to finish the shape, then **Save Measurement**.",
+  "helpDistanceStep1": "Place the crosshair on the start of your route and tap **Add Point**.",
+  "helpDistanceStep2": "Keep adding points along the route. Each segment length is shown on the map.",
+  "helpDistanceStep3": "Tap **Save Route** when you're done.",
+  "helpWalkStep1": "Wait for **GPS Ready**, then tap **Start Walking**.",
+  "helpWalkStep2": "Walk along the boundary. Use **Pause** if you need to stop.",
+  "helpWalkStep3": "Return to your starting point and tap **Finish** to calculate the area.",
+  "helpTipGpsPoint": "Tip: tap 📍 to add a point at your current GPS location.",
+  "helpTipWalk": "Tip: stay in open areas for better GPS accuracy.",
+  "resultDistance": "Distance",
+  "resultDistanceNeedsPoints": "Add at least 2 points to measure distance",
+  "resultSegmentCount": "{count, plural, =1{1 segment} other{{count} segments}}",
+  "@resultSegmentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "segmentsTitle": "Segments",
+  "draftSavedSnack": "{count, plural, =1{Draft saved · {type} · 1 point} other{Draft saved · {type} · {count} points}}",
+  "@draftSavedSnack": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "searchHint": "Address, coordinates or Google Maps link",
+  "searchAction": "Search",
+  "searchRecent": "Recent searches",
+  "searchNoResults": "No places found. Try coordinates or a Google Maps link.",
+  "searchNeedsInternet": "Searching an address needs an internet connection.",
+  "searchUnavailable": "Address search isn't available on this device. Try coordinates or a Google Maps link.",
+  "searchClear": "Clear",
+  "searchFailed": "Couldn't search this address right now. Try coordinates or a Google Maps link.",
+  "ctaStartWalking": "Start Walking",
+  "walkReadyHelper": "Walk around the boundary to record your path.",
+  "keepScreenOn": "Keep screen on",
+  "walkRecording": "Recording GPS…",
+  "walkPaused": "Paused",
+  "walkPausedMessage": "Tap Resume to continue from where you are.",
+  "gpsAccuracyShort": "±{meters} m",
+  "@gpsAccuracyShort": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "gpsLowAccuracyMessage": "Accuracy ±{meters} m — points are not recorded until it improves. Move to an open area.",
+  "@gpsLowAccuracyMessage": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "locationDeniedTitle": "Location access is off",
+  "locationDeniedMessage": "Allow location to record your walk.",
+  "actionAllow": "Allow",
+  "actionNotNow": "Not now",
+  "mockLocationDetected": "Mock location detected — those positions are not recorded.",
+  "walkCloseToStart": "Close to start — finish to calculate area",
+  "walkNotClosed": "Route not closed — distance only",
+  "walkKeepWalking": "Walk back to your start to close the loop.",
+  "resultDuration": "Duration",
+  "walkNotificationTitle": "LandMeasure is recording your measurement",
+  "walkNotificationText": "Tap to return to your walk.",
+  "walkNotificationChannel": "Walk recording",
+  "walkRecordingBack": "Recording in progress. Pause or finish before leaving.",
+  "walkPauseAndLeave": "Pause & leave",
+  "walkStartFailed": "Couldn't start recording. Try again.",
+  "batteryHintTitle": "Allow LandMeasure to run in background",
+  "batteryHintMessage": "Some phones stop apps when the screen is off. To keep recording your walk, open Settings → Battery and choose \"No restrictions\" (or \"Unrestricted\") for LandMeasure.",
+  "fabRecenter": "Recenter",
+  "homeHeroSubtitle": "Choose a method to measure your land.",
+  "homeContinueTitle": "Continue Measurement",
+  "homeSeeAllDrafts": "See all drafts",
+  "homeRecentTitle": "Recent Measurements",
+  "homeRecentEmptyTitle": "No recent measurements",
+  "homeRecentEmptyMessage": "Saved measurements will appear here.",
+  "actionSeeAll": "See All",
+  "untitledArea": "Untitled Area",
+  "untitledDistance": "Untitled Distance",
+  "untitledWalk": "Untitled Walk",
+  "draftLabel": "Draft",
+  "walkFinishedNotSaved": "Finished · not saved",
+  "lastEdited": "Last edited {time}",
+  "@lastEdited": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "timeJustNow": "just now",
+  "timeMinutesAgo": "{count, plural, =1{1 min ago} other{{count} min ago}}",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{count, plural, =1{1 hour ago} other{{count} hours ago}}",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDaysAgo": "{count, plural, =1{yesterday} other{{count} days ago}}",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedSearchHint": "Search by name",
+  "savedSearchOpen": "Search",
+  "savedSearchClose": "Close search",
+  "filterAll": "All",
+  "filterWithCount": "{label} ({count})",
+  "@filterWithCount": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedDraftsTitle": "Drafts ({count})",
+  "@savedDraftsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedNoResults": "No measurements found.",
+  "menuRename": "Rename",
+  "menuExport": "Export",
+  "measurementDeleted": "Measurement deleted",
+  "draftDiscarded": "Draft discarded",
+  "exportTitle": "Export",
+  "renameHint": "Measurement name",
+  "saveNameLabel": "Name",
+  "saveNameRequired": "Name is required",
+  "saveNotesLabel": "Notes",
+  "saveNotesHint": "Boundaries, owner, landmarks… (optional)",
+  "saveTypeLabel": "Type",
+  "saveFailed": "Couldn't save. Please try again.",
+  "saveLimitReached": "You've reached the free limit of saved measurements. This one stays in your drafts.",
+  "saveNotFound": "This measurement no longer exists.",
+  "photosTitle": "Site Photos ({count})",
+  "@photosTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actionClose": "Close",
+  "resultPoints": "Points",
+  "resultSegments": "Segments",
+  "resultAvgPace": "Avg pace",
+  "paceValue": "{time} /{unit}",
+  "@paceValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "notesTitle": "Notes",
+  "notesEmpty": "No notes",
+  "actionEdit": "Edit",
+  "actionExport": "Export",
+  "detailOpenMap": "Open map",
+  "savedOn": "Saved {date}",
+  "@savedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addPhotoTitle": "Add Photo",
+  "addPhotoCamera": "Take Photo",
+  "addPhotoGallery": "Choose from Gallery",
+  "addPhotoForPoint": "For point {number}",
+  "@addPhotoForPoint": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "addPhotoTile": "Add Photo",
+  "photoAddFailed": "Couldn't add the photo. Please try again.",
+  "photoRemoved": "Photo removed",
+  "actionUndo": "Undo",
+  "photoLimitReached": "You've reached the free limit of photos for this measurement.",
+  "photoDeleteTitle": "Delete photo?",
+  "photoDeleteMessage": "This photo will be removed from the measurement.",
+  "photoAttachTitle": "Attach this photo to measurement?",
+  "photoAttachMessage": "\"Save Photos to Measurement\" is off in Settings.",
+  "actionAttach": "Attach",
+  "photoWaitForStart": "Start walking to add photos.",
+  "photoCounter": "{index} / {total}",
+  "@photoCounter": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "photoShare": "Share",
+  "photoOpen": "Open photo {number}",
+  "@photoOpen": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "photoRemove": "Remove photo",
+  "pointPhoto": "Photo",
+  "cameraPermissionTitle": "Allow Camera Access",
+  "cameraPermissionMessage": "Take photos of landmarks, boundaries and site conditions and keep them with your measurement.",
+  "cameraPermissionDenied": "Camera access is off. You can turn it on in Settings.",
+  "actionContinue": "Continue",
+  "notesEditTitle": "Edit notes",
+  "notesAdd": "Add notes",
+  "editTabResult": "Result",
+  "editTabDetails": "Details",
+  "ctaSaveChanges": "Save Changes",
+  "dialogDiscardChangesMessage": "Your changes to this measurement will be lost.",
+  "changesSaved": "Changes saved",
+  "menuReopenShape": "Reopen shape",
+  "exportKml": "KML — Google Earth",
+  "exportKmlSubtitle": "Shape and photo points for Google Earth and GIS apps",
+  "exportCsv": "CSV — Excel",
+  "exportCsvSubtitle": "Every point with coordinates, for spreadsheets",
+  "exportPreparing": "Preparing file…",
+  "exportFailed": "Couldn't export. Please try again.",
+  "exportLimitReached": "Today's free KML export is used. CSV export stays free.",
+  "landValueTitle": "Land value",
+  "landValueAdd": "Add land value",
+  "landValueUnitPrice": "Unit price",
+  "landValueUnit": "Per",
+  "landValueEstimated": "Estimated value ≈ {value}",
+  "@landValueEstimated": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "landValueRate": "{price} / {unit}",
+  "@landValueRate": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "landValueNeedsArea": "Land value needs an area (close the shape).",
+  "landValueRemove": "Remove",
+  "landValueInvalid": "Enter a price greater than 0",
+  "resultValue": "Value",
+  "settingsSubtitle": "Units, map and app preferences",
+  "settingsSectionPreferences": "Measurement Preferences",
+  "settingsSectionMeasureMap": "Measurement & Map",
+  "settingsSectionSupport": "Support & Legal",
+  "settingsDefaultMode": "Default Measurement Type",
+  "settingsDefaultModeHint": "Selected on Home when you open the app.",
+  "settingsGpsAccuracy": "GPS Accuracy Display",
+  "settingsGpsAccuracySubtitle": "Show ±m and the accuracy circle while walking",
+  "settingsAutoCenter": "Auto Center Map",
+  "settingsAutoCenterSubtitle": "Open maps at your location and follow you while walking",
+  "settingsSavePhotos": "Save Photos to Measurement",
+  "settingsSavePhotosSubtitle": "Attach new photos without asking",
+  "settingsKeepAwake": "Keep Screen Awake",
+  "settingsKeepAwakeSubtitle": "Screen stays on while measuring",
+  "settingsHelpFeedback": "Help & Feedback",
+  "settingsRateUs": "Rate Us",
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "settingsTerms": "Terms of Use",
+  "settingsVersion": "Version {version} ({build})",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackSubject": "LandMeasure feedback",
+  "feedbackNoEmailApp": "No email app found. Write to us at {email}.",
+  "@feedbackNoEmailApp": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "linkOpenFailed": "Couldn't open the link. Please try again.",
+  "unitsDistanceTitle": "Distance",
+  "unitsAreaTitle": "Area",
+  "unitsSecondary": "Show secondary unit",
+  "unitsSecondaryExample": "e.g. {example}",
+  "@unitsSecondaryExample": {
+    "placeholders": {
+      "example": {
+        "type": "String"
+      }
+    }
+  },
+  "unitsNote": "New measurements use these units. Each measurement can also switch units from its result.",
+  "unitMeters": "Meters",
+  "unitKilometers": "Kilometers",
+  "unitFeet": "Feet",
+  "unitMiles": "Miles",
+  "unitSquareMeters": "Square meters",
+  "unitHectares": "Hectares",
+  "unitAcres": "Acres",
+  "unitSquareFeet": "Square feet",
+  "mapStyleNote": "New measurements open with this map. You can switch any map with the Layers button.",
+  "actionApply": "Apply",
+  "languageAppLanguages": "App languages",
+  "languageMachineNote": "This language was machine-translated and may contain mistakes.",
+  "locationPermissionTitle": "Allow Location Access",
+  "locationPermissionMessage": "LandMeasure uses your location to show where you are on the map. It stays on your phone.",
+  "locationPermissionMeasureMessage": "Show where you are on the map and add points where you stand. Without it you can still measure by moving the map.",
+  "locationPermissionWalkMessage": "Walk & Measure records your path with GPS while this screen is open. Your location stays on your phone.",
+  "locationPermissionBlocked": "Location access is off for LandMeasure. Turn it on in Settings to use your position.",
+  "notificationPermissionTitle": "Allow Notifications",
+  "notificationPermissionMessage": "Allow notifications so you can see recording status while your screen is off.",
+  "actionRetry": "Retry",
+  "paywallTitle": "Measure without limits",
+  "paywallSubtitle": "Unlock unlimited projects and premium features.",
+  "paywallBenefitNoAds": "No ads",
+  "paywallBenefitSaves": "Unlimited saved measurements",
+  "paywallBenefitPhotos": "Unlimited photos per measurement",
+  "paywallBenefitKml": "KML export any time",
+  "paywallStartTrial": "Start {days}-day free trial",
+  "@paywallStartTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "paywallTermsTrial": "{days} days free, then {price}/year. Renews automatically — cancel any time in {store}.",
+  "@paywallTermsTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallTermsYearly": "{price}/year. Renews automatically — cancel any time in {store}.",
+  "@paywallTermsYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallTermsMonthly": "{price}/month. Renews automatically — cancel any time in {store}.",
+  "@paywallTermsMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallRestore": "Restore purchases",
+  "paywallWelcome": "Welcome to Premium!",
+  "paywallPending": "Payment pending. Premium unlocks as soon as it completes.",
+  "paywallPurchaseFailed": "The purchase didn't go through. You were not charged.",
+  "paywallRestored": "Purchases restored.",
+  "paywallNothingToRestore": "No previous purchase found for this store account.",
+  "paywallRestoreFailed": "Couldn't restore purchases. Check your connection and try again.",
+  "paywallUnavailable": "Plans can't be loaded right now. Check your connection and try again.",
+  "premiumActive": "Premium active",
+  "premiumActiveLifetime": "Premium active · Lifetime",
+  "premiumManage": "Manage",
+  "settingsPremiumTitle": "LandMeasure Premium",
+  "settingsPremiumSubtitle": "No ads, unlimited saves and photos, KML any time",
+  "settingsManageSubscription": "Manage subscription",
+  "settingsPrivacyChoices": "Privacy choices",
+  "settingsAdInspector": "Ad Inspector (dev)",
+  "exportUnlockTitle": "Today's free KML export is used",
+  "exportUnlockMessage": "Watch a short ad to export this file, or get Premium for unlimited KML exports. CSV export stays free.",
+  "exportWatchAd": "Watch an ad",
+  "exportGetPremium": "Get Premium",
+  "exportLoadingAd": "Loading ad…",
+  "exportAdDismissed": "Watch the ad to the end to unlock this export.",
+  "introNext": "Next",
+  "introGetStarted": "Get Started",
+  "introAreaTitle": "Measure Area Easily",
+  "introAreaBody": "Mark points on the map to measure land, fields and other areas in seconds.",
+  "introDistanceTitle": "Measure Distance & Routes",
+  "introDistanceBody": "Measure straight-line distances or track your route while walking outdoors.",
+  "introFieldTitle": "Made for Real Field Work",
+  "introFieldBody": "Measure farms, land plots, properties and outdoor sites with ease.",
+  "paywallTrialTitle": "{days}-day free trial",
+  "@paywallTrialTitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "paywallThenMonthly": "Then {price} / month",
+  "@paywallThenMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallMonthlyTitle": "Monthly plan",
+  "paywallMonthlyPrice": "{price} / month",
+  "@paywallMonthlyPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallYearlyTitle": "Yearly plan",
+  "paywallYearlyOnly": "Only {price} per year",
+  "@paywallYearlyOnly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallBestPrice": "Best price",
+  "paywallMostPopular": "Most popular",
+  "paywallStartFreeTrial": "Start free trial",
+  "paywallTrialThenYearly": "{days}-day free trial, then {price}/year",
+  "@paywallTrialThenYearly": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallPricePerYear": "{price}/year",
+  "@paywallPricePerYear": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallCancelAnytime": "Cancel anytime",
+  "paywallTermsTrialMonthly": "{days} days free, then {price}/month. Renews automatically — cancel any time in {store}.",
+  "@paywallTermsTrialMonthly": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumPromptTitle": "Go Premium",
+  "premiumPromptPhotos": "You can add up to {count} photos to a measurement for free. Upgrade to Premium to add more.",
+  "@premiumPromptPhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "premiumPromptUpgrade": "Upgrade",
+  "premiumBadge": "Premium",
+  "languageChooseTitle": "Choose your language",
+  "premiumPromptMapStyleReward": "{style} maps are a Premium feature. Watch a short ad to use it until you close the app, or upgrade for good.",
+  "@premiumPromptMapStyleReward": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStyleUnlocked": "{style} map unlocked until you close the app.",
+  "@mapStyleUnlocked": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStyleAdDismissed": "Watch the ad to the end to unlock this map.",
+  "pdfReportTitleArea": "Land Measurement Report",
+  "pdfReportTitleDistance": "Distance Measurement Report",
+  "pdfReportTitleWalk": "Walk Measurement Report",
+  "pdfReportSubtitle": "Exported summary of a saved measurement",
+  "pdfHeaderLabel": "Measurement Report",
+  "pdfFooterGenerated": "Generated by LandMeasure",
+  "pdfFooterEstimate": "GPS/map measurements are estimates and may vary by device and environment.",
+  "pdfPage": "Page {page} of {pages}",
+  "@pdfPage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "pages": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfName": "Measurement name",
+  "pdfType": "Type",
+  "pdfDateSaved": "Date saved",
+  "pdfReportId": "Report ID",
+  "pdfSummary": "Measurement summary",
+  "pdfArea": "Area",
+  "pdfPerimeter": "Perimeter",
+  "pdfDistance": "Distance",
+  "pdfDuration": "Duration",
+  "pdfPoints": "Points",
+  "pdfSegments": "Segments",
+  "pdfMethod": "Method",
+  "pdfSubBoundaryVertices": "Boundary vertices",
+  "pdfSubRoutePoints": "Route points",
+  "pdfSubTrackPoints": "Track points",
+  "pdfSubSegments": "Between points",
+  "pdfMethodMapPoints": "Map points",
+  "pdfMethodPolygon": "Manual polygon",
+  "pdfMethodRoute": "Manual route",
+  "pdfAreaNotClosed": "Not closed",
+  "pdfAreaNotClosedSub": "Route did not form a loop",
+  "pdfMapBoundary": "Map & Shape",
+  "pdfMapCaption": "Schematic of the measured shape · north is up",
+  "pdfCenter": "Center coordinate",
+  "pdfMapStyle": "Map style",
+  "pdfDisplayUnits": "Display units",
+  "pdfCoordinates": "Coordinates",
+  "pdfCoordinatesHint": "Points are listed in the order they were measured.",
+  "pdfColPoint": "Point",
+  "pdfColLatitude": "Latitude",
+  "pdfColLongitude": "Longitude",
+  "pdfColSegment": "Segment",
+  "pdfColNote": "Note",
+  "pdfNoteStart": "Start",
+  "pdfNoteEnd": "End",
+  "pdfNotePhoto": "Photo attached",
+  "pdfMorePoints": "{count} more points are not shown. Export CSV to get all of them.",
+  "@pdfMorePoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfNotes": "Survey notes",
+  "pdfPhotos": "Site photos",
+  "pdfPhotoN": "Photo {n}",
+  "@pdfPhotoN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfPhotoPoint": "At {point}",
+  "@pdfPhotoPoint": {
+    "placeholders": {
+      "point": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfCaptured": "Captured {date}",
+  "@pdfCaptured": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfMorePhotos": "{count} more photos are not shown.",
+  "@pdfMorePhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfExportInfo": "Export information",
+  "pdfSource": "Source",
+  "pdfSourceAndroid": "LandMeasure Android",
+  "pdfSourceIos": "LandMeasure iOS",
+  "pdfCoordFormat": "Coordinate format",
+  "pdfCoordFormatValue": "WGS 84 latitude / longitude",
+  "pdfExported": "Exported",
+  "pdfCompanion": "Other export formats",
+  "pdfAccuracyTitle": "Accuracy notice:",
+  "pdfAccuracyBody": "This report summarizes measurements calculated from map points and/or device GPS data. Results are estimates and may vary with device accuracy, satellite visibility, map imagery, terrain, and where boundary points were placed. This document is not a certified cadastral or legal land survey unless separately verified by an authorized survey professional.",
+  "exportPdf": "PDF — Report",
+  "exportPdfSubtitle": "Printable report with map, coordinates, notes and photos",
+  "projectLimitTitle": "Free project limit reached",
+  "projectLimitMessage": "You have 4 free projects. Watch a full ad to create one more project, or upgrade to Premium for unlimited projects.",
+  "projectRewardRequired": "Finish watching an ad to unlock another project. If no ad is available, try again later or upgrade to Premium."
+}

@@ -1,0 +1,5 @@
+﻿measurement_name,measurement_type,created_at,segment_index,point_index,latitude,longitude,altitude,accuracy,timestamp,area_m2,perimeter_m,distance_m,duration_s
+"Ruộng Đông, ""Bắc""",area,2026-09-29T08:00:00.000Z,0,0,21.0285,105.8542,12,4.5,2026-09-29T08:00:00.000Z,10410.04,407.73,,
+"Ruộng Đông, ""Bắc""",area,2026-09-29T08:00:00.000Z,0,1,21.0285,105.8552,12,4.5,2026-09-29T08:00:02.000Z,10410.04,407.73,,
+"Ruộng Đông, ""Bắc""",area,2026-09-29T08:00:00.000Z,0,2,21.0294,105.8552,12,4.5,2026-09-29T08:00:04.000Z,10410.04,407.73,,
+"Ruộng Đông, ""Bắc""",area,2026-09-29T08:00:00.000Z,0,3,21.0294,105.8542,12,4.5,2026-09-29T08:00:06.000Z,10410.04,407.73,,

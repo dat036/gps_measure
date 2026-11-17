@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Attribution label on native ads (AdMob policy: ads must be labeled). -->
+    <string name="lm_native_ad_label">Ad</string>
+</resources>

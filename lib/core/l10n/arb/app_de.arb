@@ -1,0 +1,775 @@
+{
+  "@@locale": "de",
+  "appTitle": "LandMeasure",
+  "navHome": "Startseite",
+  "navSaved": "Gespeichert",
+  "navSettings": "Einstellungen",
+  "measurementTypeArea": "Fläche",
+  "measurementTypeDistance": "Distanz",
+  "measurementTypeWalk": "Gehen",
+  "screenMeasureArea": "Fläche messen",
+  "screenMeasureDistance": "Entfernung messen",
+  "screenWalk": "Gehen und messen",
+  "screenSave": "Messung speichern",
+  "screenDetail": "Messdetails",
+  "screenFullMap": "Karte",
+  "screenEdit": "Messung bearbeiten",
+  "screenSaved": "Gespeicherte Messungen",
+  "screenSettings": "Einstellungen",
+  "screenUnits": "Einheiten",
+  "screenMapStyle": "Kartenstil",
+  "screenLanguage": "Sprache",
+  "screenPaywall": "Premium",
+  "ctaStartMeasuring": "Beginnen Sie mit der Messung",
+  "ctaStartArea": "Flächenmessung starten",
+  "ctaStartDistance": "Distanzmessung starten",
+  "ctaStartWalk": "Starten Sie die Gehmessung",
+  "ctaSaveMeasurement": "Messung speichern",
+  "ctaSaveRoute": "Route speichern",
+  "ctaPause": "Pause",
+  "ctaResume": "Fortsetzen",
+  "ctaFinish": "Beenden",
+  "actionCancel": "Abbrechen",
+  "actionSave": "Speichern",
+  "actionDiscard": "Verwerfen",
+  "actionDelete": "Löschen",
+  "actionReset": "Zurücksetzen",
+  "actionOpenSettings": "Öffnen Sie Einstellungen",
+  "actionKeepRecording": "Nehmen Sie weiter auf",
+  "actionKeepEditing": "Bearbeiten Sie weiter",
+  "dialogResetTitle": "Messung zurücksetzen?",
+  "dialogResetMessage": "Dadurch werden alle Punkte entfernt.",
+  "dialogDiscardDraftTitle": "Diesen Entwurf verwerfen?",
+  "dialogDiscardDraftMessage": "Alle Punkte und nicht gespeicherten Änderungen werden entfernt.",
+  "dialogDeleteTitle": "Messung löschen?",
+  "dialogDeleteMessage": "Diese Messung, ihre Fotos und Notizen werden dauerhaft gelöscht.",
+  "dialogFinishWalkTitle": "Aufnahme beenden?",
+  "dialogFinishWalkMessage": "Die GPS-Verfolgung wird beendet.",
+  "dialogRenameTitle": "Messung umbenennen",
+  "dialogDiscardChangesTitle": "Änderungen verwerfen?",
+  "fabLayers": "Kartenebenen",
+  "fabMyLocation": "Mein Standort",
+  "fabSearch": "Ort suchen",
+  "fabCamera": "Machen Sie ein Foto",
+  "gpsReady": "GPS bereit",
+  "gpsSearching": "Suche nach GPS…",
+  "gpsLowAccuracy": "Geringe GPS-Genauigkeit",
+  "locationOff": "Der Standort ist deaktiviert",
+  "locationOffMessage": "Schalten Sie den Standort ein, um Ihren Spaziergang aufzuzeichnen.",
+  "mapOffline": "Kartenverbindung nicht verfügbar – Ihre Punkte sind sicher",
+  "emptyNoMeasurementsTitle": "Noch keine Messungen",
+  "emptyNoMeasurementsMessage": "Messen Sie Ihr erstes Stück Land und es wird hier angezeigt.",
+  "languageSystem": "Systemstandard",
+  "measureHintCrosshair": "Bewegen Sie die Karte, um das Fadenkreuz zu platzieren, und tippen Sie dann auf Punkt hinzufügen.",
+  "measureHintTap": "Tippen Sie auf die Karte, um Punkte rund um die Grenze hinzuzufügen.",
+  "toolbarUndo": "Rückgängig",
+  "toolbarAddPoint": "Punkt hinzufügen",
+  "toolbarClose": "Form schließen",
+  "toolbarReset": "Zurücksetzen",
+  "toolbarAddAtMyLocation": "Punkt an meinem Standort hinzufügen",
+  "resultArea": "Fläche",
+  "resultPerimeter": "Umfang",
+  "resultAreaNeedsPoints": "Fügen Sie mindestens 3 Punkte hinzu, um die Fläche zu berechnen",
+  "resultPointCount": "{count, plural, one{1 Punkt} other{{count} Punkte}}",
+  "@resultPointCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "edgesCross": "Kanten kreuzen sich – die Fläche ist möglicherweise falsch",
+  "menuMore": "Weitere Optionen",
+  "menuInputCrosshair": "Mit Fadenkreuz hinzufügen",
+  "menuInputTap": "Fügen Sie hinzu, indem Sie auf die Karte tippen",
+  "menuShowEdgeLabels": "Kantenlängen anzeigen",
+  "pointLabel": "Punkt {number}",
+  "@pointLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "pointDelete": "Punkt löschen",
+  "pointDeselect": "Fertig",
+  "gpsLowAccuracyAdded": "Die GPS-Genauigkeit ist gering (±{meters} m). Der Punkt wurde trotzdem hinzugefügt.",
+  "@gpsLowAccuracyAdded": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "locationUnavailable": "Ihr Standort konnte nicht ermittelt werden. Versuchen Sie es noch einmal im Freien.",
+  "locationPermissionDenied": "Der Standortzugriff ist deaktiviert. Sie können weiterhin messen, indem Sie die Karte verschieben.",
+  "locationServiceOff": "Der Standort ist auf diesem Gerät deaktiviert.",
+  "mapLayersTitle": "Kartentyp",
+  "mapStyleStandard": "Standard",
+  "mapStyleSatellite": "Satellit",
+  "mapStyleTerrain": "Terrain",
+  "mapStyleHybrid": "Hybrid",
+  "draftSaveFailed": "Ihre Punkte konnten nicht gespeichert werden. Bei der nächsten Änderung werden sie wieder gespeichert.",
+  "menuHelp": "Helfen",
+  "actionGotIt": "Verstanden",
+  "helpTitleArea": "So messen Sie die Fläche",
+  "helpTitleDistance": "So messen Sie die Entfernung",
+  "helpTitleWalk": "Wie man geht und misst",
+  "helpAreaSummary": "Fügen Sie Punkte rund um die Grenze Ihres Landes hinzu.",
+  "helpDistanceSummary": "Fügen Sie Punkte entlang der Route hinzu, die Sie messen möchten.",
+  "helpWalkSummary": "Gehen Sie um die Grenze herum, während LandMeasure Ihren GPS-Pfad aufzeichnet.",
+  "helpPhotoTip": "Verwenden Sie Fotos, um Orientierungspunkte, Grenzen oder Standortbedingungen zu dokumentieren.",
+  "helpAccuracyNote": "Die Genauigkeit von GPS- und Kartenmessungen kann je nach Gerät, Kartenbild und Umgebung variieren.",
+  "helpAreaStep1": "Bewegen Sie die Karte, sodass sich das Fadenkreuz in einer Ecke befindet, und tippen Sie dann auf **Punkt hinzufügen**.",
+  "helpAreaStep2": "Fügen Sie mindestens 3 Punkte um die Grenze hinzu. Ziehen Sie einen Punkt, um ihn anzupassen.",
+  "helpAreaStep3": "Tippen Sie auf **Schließen**, um die Form fertigzustellen, und dann auf **Messung speichern**.",
+  "helpDistanceStep1": "Platzieren Sie das Fadenkreuz am Anfang Ihrer Route und tippen Sie auf **Punkt hinzufügen**.",
+  "helpDistanceStep2": "Fügen Sie weitere Punkte entlang der Route hinzu. Die Länge jedes Segments wird auf der Karte angezeigt.",
+  "helpDistanceStep3": "Tippen Sie auf **Route speichern**, wenn Sie fertig sind.",
+  "helpWalkStep1": "Warten Sie auf **GPS bereit** und tippen Sie dann auf **Fangen Sie an zu laufen**.",
+  "helpWalkStep2": "Gehen Sie an der Grenze entlang. Verwenden Sie **Pause**, wenn Sie anhalten müssen.",
+  "helpWalkStep3": "Kehren Sie zu Ihrem Ausgangspunkt zurück und tippen Sie auf **Fertig stellen**, um die Fläche zu berechnen.",
+  "helpTipGpsPoint": "Tipp: Tippen Sie auf 📍, um einen Punkt an Ihrem aktuellen GPS-Standort hinzuzufügen.",
+  "helpTipWalk": "Tipp: Bleiben Sie für eine bessere GPS-Genauigkeit in offenen Bereichen.",
+  "resultDistance": "Distanz",
+  "resultDistanceNeedsPoints": "Fügen Sie mindestens 2 Punkte hinzu, um die Entfernung zu messen",
+  "resultSegmentCount": "{count, plural, one{1 Abschnitt} other{{count} Abschnitte}}",
+  "@resultSegmentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "segmentsTitle": "Segmente",
+  "draftSavedSnack": "{count, plural, one{Entwurf gespeichert · {type} · 1 Punkt} other{Entwurf gespeichert · {type} · {count} Punkte}}",
+  "@draftSavedSnack": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "searchHint": "Adresse, Koordinaten oder Google Maps-Link",
+  "searchAction": "Suchen",
+  "searchRecent": "Aktuelle Suchanfragen",
+  "searchNoResults": "Keine Orte gefunden. Versuchen Sie es mit Koordinaten oder einem Google Maps-Link.",
+  "searchNeedsInternet": "Für die Suche nach einer Adresse ist eine Internetverbindung erforderlich.",
+  "searchUnavailable": "Die Adresssuche ist auf diesem Gerät nicht verfügbar. Versuchen Sie es mit Koordinaten oder einem Google Maps-Link.",
+  "searchClear": "Klar",
+  "searchFailed": "Diese Adresse konnte momentan nicht gesucht werden. Versuchen Sie es mit Koordinaten oder einem Google Maps-Link.",
+  "ctaStartWalking": "Fangen Sie an zu laufen",
+  "walkReadyHelper": "Gehen Sie um die Grenze herum, um Ihren Weg aufzuzeichnen.",
+  "keepScreenOn": "Lassen Sie den Bildschirm eingeschaltet",
+  "walkRecording": "GPS aufzeichnen…",
+  "walkPaused": "Angehalten",
+  "walkPausedMessage": "Tippen Sie auf „Fortsetzen“, um dort fortzufahren, wo Sie sich gerade befinden.",
+  "gpsAccuracyShort": "±{meters} m",
+  "@gpsAccuracyShort": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "gpsLowAccuracyMessage": "Genauigkeit ±{meters} m – Punkte werden erst aufgezeichnet, wenn sie sich verbessert. Gehen Sie in einen offenen Bereich.",
+  "@gpsLowAccuracyMessage": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "locationDeniedTitle": "Der Standortzugriff ist deaktiviert",
+  "locationDeniedMessage": "Erlauben Sie dem Standort, Ihren Spaziergang aufzuzeichnen.",
+  "actionAllow": "Erlauben",
+  "actionNotNow": "Nicht jetzt",
+  "mockLocationDetected": "Scheinstandort erkannt – diese Positionen werden nicht aufgezeichnet.",
+  "walkCloseToStart": "Nah am Start – am Ende, um die Fläche zu berechnen",
+  "walkNotClosed": "Route nicht geschlossen – nur Entfernung",
+  "walkKeepWalking": "Gehen Sie zurück zu Ihrem Ausgangspunkt, um die Schleife zu schließen.",
+  "resultDuration": "Dauer",
+  "walkNotificationTitle": "LandMeasure zeichnet Ihre Messung auf",
+  "walkNotificationText": "Tippen Sie, um zu Ihrem Spaziergang zurückzukehren.",
+  "walkNotificationChannel": "Gehaufzeichnung",
+  "walkRecordingBack": "Aufnahme läuft. Machen Sie eine Pause oder beenden Sie den Vorgang, bevor Sie gehen.",
+  "walkPauseAndLeave": "Innehalten und gehen",
+  "walkStartFailed": "Die Aufnahme konnte nicht gestartet werden. Versuchen Sie es erneut.",
+  "batteryHintTitle": "Lassen Sie LandMeasure im Hintergrund laufen",
+  "batteryHintMessage": "Einige Telefone stoppen Apps, wenn der Bildschirm ausgeschaltet ist. Um Ihren Spaziergang weiterhin aufzuzeichnen, öffnen Sie Einstellungen → Akku und wählen Sie „Keine Einschränkungen“ (oder „Uneingeschränkt“) für LandMeasure.",
+  "fabRecenter": "Neu zentrieren",
+  "homeHeroSubtitle": "Wählen Sie eine Methode zur Vermessung Ihres Grundstücks.",
+  "homeContinueTitle": "Messung fortsetzen",
+  "homeSeeAllDrafts": "Alle Entwürfe ansehen",
+  "homeRecentTitle": "Aktuelle Messungen",
+  "homeRecentEmptyTitle": "Keine aktuellen Messungen",
+  "homeRecentEmptyMessage": "Hier werden gespeicherte Messungen angezeigt.",
+  "actionSeeAll": "Alle anzeigen",
+  "untitledArea": "Unbenannter Bereich",
+  "untitledDistance": "Ohne Titel Entfernung",
+  "untitledWalk": "Spaziergang ohne Titel",
+  "draftLabel": "Entwurf",
+  "walkFinishedNotSaved": "Fertig · nicht gespeichert",
+  "lastEdited": "Zuletzt bearbeitet {time}",
+  "@lastEdited": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "timeJustNow": "soeben",
+  "timeMinutesAgo": "{count, plural, one{vor 1 Min.} other{vor {count} Min.}}",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{count, plural, one{vor 1 Stunde} other{vor {count} Stunden}}",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDaysAgo": "{count, plural, =1{gestern} other{vor {count} Tagen}}",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedSearchHint": "Suche nach Namen",
+  "savedSearchOpen": "Suchen",
+  "savedSearchClose": "Suche schließen",
+  "filterAll": "Alle",
+  "filterWithCount": "{label} ({count})",
+  "@filterWithCount": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedDraftsTitle": "Entwürfe ({count})",
+  "@savedDraftsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedNoResults": "Keine Messungen gefunden.",
+  "menuRename": "Umbenennen",
+  "menuExport": "Export",
+  "measurementDeleted": "Messung gelöscht",
+  "draftDiscarded": "Entwurf verworfen",
+  "exportTitle": "Export",
+  "renameHint": "Messname",
+  "saveNameLabel": "Name",
+  "saveNameRequired": "Name ist erforderlich",
+  "saveNotesLabel": "Notizen",
+  "saveNotesHint": "Grenzen, Eigentümer, Sehenswürdigkeiten… (optional)",
+  "saveTypeLabel": "Typ",
+  "saveFailed": "Konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+  "saveLimitReached": "Sie haben das kostenlose Limit der gespeicherten Messungen erreicht. Dieser bleibt in Ihren Entwürfen.",
+  "saveNotFound": "Diese Messung existiert nicht mehr.",
+  "photosTitle": "Standortfotos ({count})",
+  "@photosTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actionClose": "Schließen",
+  "resultPoints": "Punkte",
+  "resultSegments": "Segmente",
+  "resultAvgPace": "Durchschnittliches Tempo",
+  "paceValue": "{time} /{unit}",
+  "@paceValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "notesTitle": "Notizen",
+  "notesEmpty": "Keine Notizen",
+  "actionEdit": "Bearbeiten",
+  "actionExport": "Export",
+  "detailOpenMap": "Karte öffnen",
+  "savedOn": "Gespeichert {date}",
+  "@savedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addPhotoTitle": "Foto hinzufügen",
+  "addPhotoCamera": "Machen Sie ein Foto",
+  "addPhotoGallery": "Wählen Sie aus der Galerie",
+  "addPhotoForPoint": "Für Punkt {number}",
+  "@addPhotoForPoint": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "addPhotoTile": "Foto hinzufügen",
+  "photoAddFailed": "Das Foto konnte nicht hinzugefügt werden. Bitte versuchen Sie es erneut.",
+  "photoRemoved": "Foto entfernt",
+  "actionUndo": "Rückgängig",
+  "photoLimitReached": "Sie haben das kostenlose Limit an Fotos für diese Messung erreicht.",
+  "photoDeleteTitle": "Foto löschen?",
+  "photoDeleteMessage": "Dieses Foto wird aus der Messung entfernt.",
+  "photoAttachTitle": "Dieses Foto der Messung beifügen?",
+  "photoAttachMessage": "„Fotos zur Messung speichern“ ist in den Einstellungen deaktiviert.",
+  "actionAttach": "Anhängen",
+  "photoWaitForStart": "Gehen Sie los, um Fotos hinzuzufügen.",
+  "photoCounter": "{index} / {total}",
+  "@photoCounter": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "photoShare": "Teilen",
+  "photoOpen": "Öffnen Sie das Foto {number}",
+  "@photoOpen": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "photoRemove": "Foto entfernen",
+  "pointPhoto": "Foto",
+  "cameraPermissionTitle": "Kamerazugriff zulassen",
+  "cameraPermissionMessage": "Machen Sie Fotos von Orientierungspunkten, Grenzen und Standortbedingungen und bewahren Sie diese zusammen mit Ihrer Messung auf.",
+  "cameraPermissionDenied": "Der Kamerazugriff ist deaktiviert. Sie können es in den Einstellungen aktivieren.",
+  "actionContinue": "Weiter",
+  "notesEditTitle": "Notizen bearbeiten",
+  "notesAdd": "Notizen hinzufügen",
+  "editTabResult": "Ergebnis",
+  "editTabDetails": "Einzelheiten",
+  "ctaSaveChanges": "Änderungen speichern",
+  "dialogDiscardChangesMessage": "Ihre Änderungen an dieser Messung gehen verloren.",
+  "changesSaved": "Änderungen gespeichert",
+  "menuReopenShape": "Form erneut öffnen",
+  "exportKml": "KML – Google Earth",
+  "exportKmlSubtitle": "Form- und Fotopunkte für Google Earth- und GIS-Apps",
+  "exportCsv": "CSV – Excel",
+  "exportCsvSubtitle": "Jeder Punkt mit Koordinaten, für Tabellenkalkulationen",
+  "exportPreparing": "Datei wird vorbereitet…",
+  "exportFailed": "Konnte nicht exportiert werden. Bitte versuchen Sie es erneut.",
+  "exportLimitReached": "Der kostenlose KML-Export für heute ist aufgebraucht. CSV-Exporte bleiben kostenlos.",
+  "landValueTitle": "Grundstückswert",
+  "landValueAdd": "Fügen Sie den Bodenwert hinzu",
+  "landValueUnitPrice": "Stückpreis",
+  "landValueUnit": "Pro",
+  "landValueEstimated": "Geschätzter Wert ≈ {value}",
+  "@landValueEstimated": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "landValueRate": "{price} / {unit}",
+  "@landValueRate": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "landValueNeedsArea": "Der Grundstückswert benötigt eine Fläche (schließen Sie die Form an).",
+  "landValueRemove": "Entfernen",
+  "landValueInvalid": "Geben Sie einen Preis größer als 0 ein",
+  "resultValue": "Wert",
+  "settingsSubtitle": "Einheiten, Karten- und App-Einstellungen",
+  "settingsSectionPreferences": "Messeinstellungen",
+  "settingsSectionMeasureMap": "Messung und Karte",
+  "settingsSectionSupport": "Support & Recht",
+  "settingsDefaultMode": "Standardmesstyp",
+  "settingsDefaultModeHint": "Wird auf der Startseite ausgewählt, wenn Sie die App öffnen.",
+  "settingsGpsAccuracy": "GPS-Genauigkeitsanzeige",
+  "settingsGpsAccuracySubtitle": "Zeigen Sie beim Gehen ±m und den Genauigkeitskreis an",
+  "settingsAutoCenter": "Karte automatisch zentrieren",
+  "settingsAutoCenterSubtitle": "Öffnen Sie Karten an Ihrem Standort und folgen Sie Ihnen beim Gehen",
+  "settingsSavePhotos": "Speichern Sie Fotos in der Messung",
+  "settingsSavePhotosSubtitle": "Hängen Sie neue Fotos an, ohne zu fragen",
+  "settingsKeepAwake": "Bildschirm eingeschaltet lassen",
+  "settingsKeepAwakeSubtitle": "Der Bildschirm bleibt während der Messung eingeschaltet",
+  "settingsHelpFeedback": "Hilfe und Feedback",
+  "settingsRateUs": "Bewerten Sie uns",
+  "settingsPrivacyPolicy": "Datenschutzrichtlinie",
+  "settingsTerms": "Nutzungsbedingungen",
+  "settingsVersion": "Version {version} ({build})",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackSubject": "LandMeasure-Feedback",
+  "feedbackNoEmailApp": "Keine E-Mail-App gefunden. Schreiben Sie uns an {email}.",
+  "@feedbackNoEmailApp": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "linkOpenFailed": "Der Link konnte nicht geöffnet werden. Bitte versuchen Sie es erneut.",
+  "unitsDistanceTitle": "Distanz",
+  "unitsAreaTitle": "Fläche",
+  "unitsSecondary": "Nebeneinheit anzeigen",
+  "unitsSecondaryExample": "z.B. {example}",
+  "@unitsSecondaryExample": {
+    "placeholders": {
+      "example": {
+        "type": "String"
+      }
+    }
+  },
+  "unitsNote": "Neue Messungen verwenden diese Einheiten. Jede Messung kann auch die Einheiten ihres Ergebnisses wechseln.",
+  "unitMeters": "Meter",
+  "unitKilometers": "Kilometer",
+  "unitFeet": "Fuß",
+  "unitMiles": "Meilen",
+  "unitSquareMeters": "Quadratmeter",
+  "unitHectares": "Hektar",
+  "unitAcres": "Acres",
+  "unitSquareFeet": "Quadratfuß",
+  "mapStyleNote": "Mit dieser Karte werden neue Messungen geöffnet. Sie können jede Karte mit der Schaltfläche „Ebenen“ wechseln.",
+  "actionApply": "Anwenden",
+  "languageAppLanguages": "App-Sprachen",
+  "languageMachineNote": "Diese Sprache wurde maschinell übersetzt und kann Fehler enthalten.",
+  "locationPermissionTitle": "Standortzugriff zulassen",
+  "locationPermissionMessage": "LandMeasure verwendet Ihren Standort, um auf der Karte anzuzeigen, wo Sie sich befinden. Es bleibt auf Ihrem Telefon.",
+  "locationPermissionMeasureMessage": "Zeigen Sie auf der Karte an, wo Sie sich befinden, und fügen Sie Punkte hinzu, an denen Sie sich befinden. Ohne sie können Sie immer noch messen, indem Sie die Karte verschieben.",
+  "locationPermissionWalkMessage": "Walk & Measure zeichnet Ihren Weg mit GPS auf, während dieser Bildschirm geöffnet ist. Ihr Standort bleibt auf Ihrem Telefon.",
+  "locationPermissionBlocked": "Der Standortzugriff ist für LandMeasure deaktiviert. Aktivieren Sie es in den Einstellungen, um Ihre Position zu verwenden.",
+  "notificationPermissionTitle": "Benachrichtigungen zulassen",
+  "notificationPermissionMessage": "Lassen Sie Benachrichtigungen zu, damit Sie den Aufnahmestatus sehen können, auch wenn Ihr Bildschirm ausgeschaltet ist.",
+  "actionRetry": "Erneut versuchen",
+  "paywallTitle": "Messen ohne Grenzen",
+  "paywallSubtitle": "Schalten Sie unbegrenzte Projekte und Premium-Funktionen frei.",
+  "paywallBenefitNoAds": "Keine Werbung",
+  "paywallBenefitSaves": "Unbegrenzt gespeicherte Messungen",
+  "paywallBenefitPhotos": "Unbegrenzte Fotos pro Messung",
+  "paywallBenefitKml": "KML-Export jederzeit möglich",
+  "paywallStartTrial": "{days} Tage kostenlos testen",
+  "@paywallStartTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "paywallTermsTrial": "{days} Tage kostenlos, danach {price}/Jahr. Automatische Verlängerung — jederzeit in {store} kündbar.",
+  "@paywallTermsTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallTermsYearly": "{price}/Jahr. Verlängert sich automatisch – jederzeit kündbar in {store}.",
+  "@paywallTermsYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallTermsMonthly": "{price}/Monat. Verlängert sich automatisch – jederzeit kündbar in {store}.",
+  "@paywallTermsMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallRestore": "Einkäufe wiederherstellen",
+  "paywallWelcome": "Willkommen bei Premium!",
+  "paywallPending": "Zahlung ausstehend. Premium wird freigeschaltet, sobald es abgeschlossen ist.",
+  "paywallPurchaseFailed": "Der Kauf ist fehlgeschlagen. Ihnen wurde nichts berechnet.",
+  "paywallRestored": "Einkäufe wiederhergestellt.",
+  "paywallNothingToRestore": "Für dieses Shop-Konto wurde kein vorheriger Kauf gefunden.",
+  "paywallRestoreFailed": "Käufe konnten nicht wiederhergestellt werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+  "paywallUnavailable": "Pläne können derzeit nicht geladen werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+  "premiumActive": "Premium aktiv",
+  "premiumActiveLifetime": "Premium aktiv · Lebenslang",
+  "premiumManage": "Verwalten",
+  "settingsPremiumTitle": "LandMeasure Premium",
+  "settingsPremiumSubtitle": "Keine Werbung, unbegrenzte Speicherungen und Fotos, jederzeit KML",
+  "settingsManageSubscription": "Abonnement verwalten",
+  "settingsPrivacyChoices": "Datenschutzoptionen",
+  "settingsAdInspector": "Anzeigeninspektor (Entwickler)",
+  "exportUnlockTitle": "Der kostenlose KML-Export für heute ist aufgebraucht",
+  "exportUnlockMessage": "Sehen Sie sich eine kurze Anzeige an, um diese Datei zu exportieren, oder holen Sie sich Premium für unbegrenzte KML-Exporte. Der CSV-Export bleibt kostenlos.",
+  "exportWatchAd": "Sehen Sie sich eine Anzeige an",
+  "exportGetPremium": "Premium erhalten",
+  "exportLoadingAd": "Anzeige wird geladen…",
+  "exportAdDismissed": "Sehen Sie sich die Anzeige bis zum Ende an, um diesen Export freizuschalten.",
+  "introNext": "Nächste",
+  "introGetStarted": "Legen Sie los",
+  "introAreaTitle": "Fläche einfach messen",
+  "introAreaBody": "Markieren Sie Punkte auf der Karte, um Land, Felder und andere Bereiche in Sekundenschnelle zu vermessen.",
+  "introDistanceTitle": "Messen Sie Entfernungen und Routen",
+  "introDistanceBody": "Messen Sie geradlinige Entfernungen oder verfolgen Sie Ihre Route beim Gehen im Freien.",
+  "introFieldTitle": "Gemacht für echte Feldarbeit",
+  "introFieldBody": "Vermessen Sie ganz einfach Bauernhöfe, Grundstücke, Grundstücke und Außenanlagen.",
+  "paywallTrialTitle": "{days} Tage kostenlos testen",
+  "@paywallTrialTitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "paywallThenMonthly": "Dann {price} / Monat",
+  "@paywallThenMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallMonthlyTitle": "Monatsplan",
+  "paywallMonthlyPrice": "{price} / Monat",
+  "@paywallMonthlyPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallYearlyTitle": "Jahresplan",
+  "paywallYearlyOnly": "Nur {price} pro Jahr",
+  "@paywallYearlyOnly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallBestPrice": "Bester Preis",
+  "paywallMostPopular": "Am beliebtesten",
+  "paywallStartFreeTrial": "Kostenlose Testversion starten",
+  "paywallTrialThenYearly": "{days} Tage kostenlos, danach {price}/Jahr",
+  "@paywallTrialThenYearly": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallPricePerYear": "{price}/Jahr",
+  "@paywallPricePerYear": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallCancelAnytime": "Jederzeit kündbar",
+  "paywallTermsTrialMonthly": "{days} Tage kostenlos, dann {price}/Monat. Verlängert sich automatisch – jederzeit kündbar in {store}.",
+  "@paywallTermsTrialMonthly": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumPromptTitle": "Gehen Sie Premium",
+  "premiumPromptPhotos": "Sie können bis zu {count} Fotos kostenlos zu einer Messung hinzufügen. Upgraden Sie auf Premium, um mehr hinzuzufügen.",
+  "@premiumPromptPhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "premiumPromptUpgrade": "Auf Premium upgraden",
+  "premiumBadge": "Premium",
+  "languageChooseTitle": "Wählen Sie Ihre Sprache",
+  "premiumPromptMapStyleReward": "{style}-Karten sind eine Premium-Funktion. Sehen Sie sich eine kurze Anzeige an, um diese Karte bis zum Schließen der App zu nutzen, oder upgraden Sie für dauerhaften Zugriff.",
+  "@premiumPromptMapStyleReward": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStyleUnlocked": "Die {style}-Karte ist so lange freigeschaltet, bis Sie die App schließen.",
+  "@mapStyleUnlocked": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStyleAdDismissed": "Sehen Sie sich die Anzeige bis zum Ende an, um diese Karte freizuschalten.",
+  "pdfReportTitleArea": "Landvermessungsbericht",
+  "pdfReportTitleDistance": "Entfernungsmessbericht",
+  "pdfReportTitleWalk": "Gehmessbericht",
+  "pdfReportSubtitle": "Exportierte Zusammenfassung einer gespeicherten Messung",
+  "pdfHeaderLabel": "Messbericht",
+  "pdfFooterGenerated": "Erstellt von LandMeasure",
+  "pdfFooterEstimate": "GPS-/Kartenmessungen sind Schätzungen und können je nach Gerät und Umgebung variieren.",
+  "pdfPage": "Seite {page} von {pages}",
+  "@pdfPage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "pages": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfName": "Name der Messung",
+  "pdfType": "Typ",
+  "pdfDateSaved": "Speicherdatum",
+  "pdfReportId": "Berichts-ID",
+  "pdfSummary": "Zusammenfassung der Messungen",
+  "pdfArea": "Fläche",
+  "pdfPerimeter": "Umfang",
+  "pdfDistance": "Distanz",
+  "pdfDuration": "Dauer",
+  "pdfPoints": "Punkte",
+  "pdfSegments": "Segmente",
+  "pdfMethod": "Verfahren",
+  "pdfSubBoundaryVertices": "Grenzscheitelpunkte",
+  "pdfSubRoutePoints": "Routenpunkte",
+  "pdfSubTrackPoints": "GPS-Trackpunkte",
+  "pdfSubSegments": "Zwischen Punkten",
+  "pdfMethodMapPoints": "Kartenpunkte",
+  "pdfMethodPolygon": "Manuelles Polygon",
+  "pdfMethodRoute": "Manuelle Route",
+  "pdfAreaNotClosed": "Nicht geschlossen",
+  "pdfAreaNotClosedSub": "Die Route bildete keine Schleife",
+  "pdfMapBoundary": "Karte und Form",
+  "pdfMapCaption": "Schematische Darstellung der gemessenen Form · Norden ist oben",
+  "pdfCenter": "Mittelpunktkoordinaten",
+  "pdfMapStyle": "Kartenstil",
+  "pdfDisplayUnits": "Anzeigeeinheiten",
+  "pdfCoordinates": "Koordinaten",
+  "pdfCoordinatesHint": "Die Punkte werden in der Reihenfolge aufgelistet, in der sie gemessen wurden.",
+  "pdfColPoint": "Punkt",
+  "pdfColLatitude": "Breitengrad",
+  "pdfColLongitude": "Längengrad",
+  "pdfColSegment": "Segment",
+  "pdfColNote": "Notiz",
+  "pdfNoteStart": "Start",
+  "pdfNoteEnd": "Ende",
+  "pdfNotePhoto": "Foto beigefügt",
+  "pdfMorePoints": "{count} weitere Punkte werden nicht angezeigt. Exportieren Sie CSV, um alle zu erhalten.",
+  "@pdfMorePoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfNotes": "Vermessungsnotizen",
+  "pdfPhotos": "Geländefotos",
+  "pdfPhotoN": "Foto {n}",
+  "@pdfPhotoN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfPhotoPoint": "Bei {point}",
+  "@pdfPhotoPoint": {
+    "placeholders": {
+      "point": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfCaptured": "Aufgenommen am {date}",
+  "@pdfCaptured": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfMorePhotos": "{count} weitere Fotos werden nicht angezeigt.",
+  "@pdfMorePhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfExportInfo": "Exportinformationen",
+  "pdfSource": "Quelle",
+  "pdfSourceAndroid": "LandMeasure Android",
+  "pdfSourceIos": "LandMeasure iOS",
+  "pdfCoordFormat": "Koordinatenformat",
+  "pdfCoordFormatValue": "WGS 84 Breiten-/Längengrad",
+  "pdfExported": "Exportiert",
+  "pdfCompanion": "Andere Exportformate",
+  "pdfAccuracyTitle": "Genauigkeitshinweis:",
+  "pdfAccuracyBody": "Dieser Bericht fasst Messungen zusammen, die aus Kartenpunkten und/oder GPS-Daten des Geräts berechnet wurden. Die Ergebnisse sind Schätzungen und können je nach Gerätegenauigkeit, Satellitensichtbarkeit, Kartenbildern, Gelände und der Position der Grenzpunkte variieren. Bei diesem Dokument handelt es sich nicht um eine zertifizierte Kataster- oder gesetzliche Landvermessung, es sei denn, es wurde separat von einem autorisierten Vermessungsfachmann überprüft.",
+  "exportPdf": "PDF – Bericht",
+  "exportPdfSubtitle": "Druckbarer Bericht mit Karte, Koordinaten, Notizen und Fotos",
+  "projectLimitTitle": "Das Limit für kostenlose Projekte wurde erreicht",
+  "projectLimitMessage": "Sie haben 4 kostenlose Projekte. Sehen Sie sich die vollständige Anzeige an, um ein weiteres Projekt zu erstellen, oder upgraden Sie auf Premium für unbegrenzte Projekte.",
+  "projectRewardRequired": "Sehen Sie sich eine Anzeige vollständig an, um ein weiteres Projekt freizuschalten. Wenn keine Anzeige verfügbar ist, versuchen Sie es später erneut oder upgraden Sie auf Premium."
+}

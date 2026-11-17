@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kept apart from colors.xml, which flutter_launcher_icons rewrites. -->
+<resources>
+    <!-- design.md brand.primary -->
+    <color name="brand_primary">#0F8A5F</color>
+</resources>

@@ -1,0 +1,775 @@
+{
+  "@@locale": "th",
+  "appTitle": "LandMeasure",
+  "navHome": "หน้าหลัก",
+  "navSaved": "บันทึกแล้ว",
+  "navSettings": "การตั้งค่า",
+  "measurementTypeArea": "พื้นที่",
+  "measurementTypeDistance": "ระยะทาง",
+  "measurementTypeWalk": "เดิน",
+  "screenMeasureArea": "วัดพื้นที่",
+  "screenMeasureDistance": "วัดระยะทาง",
+  "screenWalk": "เดินและวัด",
+  "screenSave": "บันทึกการวัด",
+  "screenDetail": "รายละเอียดการวัด",
+  "screenFullMap": "แผนที่",
+  "screenEdit": "แก้ไขการวัด",
+  "screenSaved": "การวัดที่บันทึกไว้",
+  "screenSettings": "การตั้งค่า",
+  "screenUnits": "หน่วย",
+  "screenMapStyle": "รูปแบบแผนที่",
+  "screenLanguage": "ภาษา",
+  "screenPaywall": "Premium",
+  "ctaStartMeasuring": "เริ่มการวัด",
+  "ctaStartArea": "เริ่มวัดพื้นที่",
+  "ctaStartDistance": "เริ่มการวัดระยะทาง",
+  "ctaStartWalk": "เริ่มวัดการเดิน",
+  "ctaSaveMeasurement": "บันทึกการวัด",
+  "ctaSaveRoute": "บันทึกเส้นทาง",
+  "ctaPause": "หยุดชั่วคราว",
+  "ctaResume": "ดำเนินการต่อ",
+  "ctaFinish": "เสร็จสิ้น",
+  "actionCancel": "ยกเลิก",
+  "actionSave": "บันทึก",
+  "actionDiscard": "ละทิ้ง",
+  "actionDelete": "ลบ",
+  "actionReset": "เริ่มใหม่",
+  "actionOpenSettings": "เปิดการตั้งค่า",
+  "actionKeepRecording": "บันทึกต่อ",
+  "actionKeepEditing": "แก้ไขต่อไป",
+  "dialogResetTitle": "รีเซ็ตการวัดไหม",
+  "dialogResetMessage": "การดำเนินการนี้จะลบจุดทั้งหมด",
+  "dialogDiscardDraftTitle": "ยกเลิกฉบับร่างนี้ใช่ไหม",
+  "dialogDiscardDraftMessage": "จุดและการเปลี่ยนแปลงที่ยังไม่ได้บันทึกทั้งหมดจะถูกลบออก",
+  "dialogDeleteTitle": "ลบการวัดใช่ไหม",
+  "dialogDeleteMessage": "การวัดนี้ รูปภาพ และบันทึกจะถูกลบอย่างถาวร",
+  "dialogFinishWalkTitle": "บันทึกเสร็จแล้วใช่ไหม",
+  "dialogFinishWalkMessage": "การติดตาม GPS จะหยุดลง",
+  "dialogRenameTitle": "เปลี่ยนชื่อการวัด",
+  "dialogDiscardChangesTitle": "ยกเลิกการเปลี่ยนแปลงใช่ไหม",
+  "fabLayers": "เลเยอร์แผนที่",
+  "fabMyLocation": "ตำแหน่งของฉัน",
+  "fabSearch": "ค้นหาสถานที่",
+  "fabCamera": "ถ่ายรูป",
+  "gpsReady": "GPS พร้อมใช้งาน",
+  "gpsSearching": "กำลังค้นหา GPS...",
+  "gpsLowAccuracy": "ความแม่นยำของ GPS ต่ำ",
+  "locationOff": "ตำแหน่งปิดอยู่",
+  "locationOffMessage": "เปิดตำแหน่งเพื่อบันทึกการเดินของคุณ",
+  "mapOffline": "ไม่สามารถเชื่อมต่อแผนที่ได้ — จุดของคุณยังปลอดภัย",
+  "emptyNoMeasurementsTitle": "ยังไม่มีการวัด",
+  "emptyNoMeasurementsMessage": "วัดที่ดินผืนแรกของคุณ แล้วที่ดินจะปรากฏที่นี่",
+  "languageSystem": "ค่าเริ่มต้นของระบบ",
+  "measureHintCrosshair": "ย้ายแผนที่เพื่อวางเป้าเล็ง แล้วแตะเพิ่มจุด",
+  "measureHintTap": "แตะแผนที่เพื่อเพิ่มจุดรอบๆ ขอบเขต",
+  "toolbarUndo": "เลิกทำ",
+  "toolbarAddPoint": "เพิ่มจุด",
+  "toolbarClose": "ปิดรูปทรง",
+  "toolbarReset": "เริ่มใหม่",
+  "toolbarAddAtMyLocation": "เพิ่มจุดที่ตำแหน่งของฉัน",
+  "resultArea": "พื้นที่",
+  "resultPerimeter": "เส้นรอบรูป",
+  "resultAreaNeedsPoints": "เพิ่มอย่างน้อย 3 จุดเพื่อคำนวณพื้นที่",
+  "resultPointCount": "{count} จุด",
+  "@resultPointCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "edgesCross": "กากบาทขอบ — พื้นที่อาจไม่ถูกต้อง",
+  "menuMore": "ตัวเลือกเพิ่มเติม",
+  "menuInputCrosshair": "เพิ่มด้วยเป้าเล็ง",
+  "menuInputTap": "เพิ่มโดยการแตะแผนที่",
+  "menuShowEdgeLabels": "แสดงความยาวขอบ",
+  "pointLabel": "จุด {number}",
+  "@pointLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "pointDelete": "ลบจุด",
+  "pointDeselect": "เสร็จสิ้น",
+  "gpsLowAccuracyAdded": "ความแม่นยำของ GPS ต่ำ (±{meters} m) แต่เพิ่มจุดแล้ว",
+  "@gpsLowAccuracyAdded": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "locationUnavailable": "ไม่สามารถรับตำแหน่งของคุณได้ ลองอีกครั้งกลางแจ้ง",
+  "locationPermissionDenied": "การเข้าถึงตำแหน่งปิดอยู่ คุณยังคงสามารถวัดได้ด้วยการเลื่อนแผนที่",
+  "locationServiceOff": "ตำแหน่งปิดอยู่ในอุปกรณ์นี้",
+  "mapLayersTitle": "ประเภทแผนที่",
+  "mapStyleStandard": "มาตรฐาน",
+  "mapStyleSatellite": "ดาวเทียม",
+  "mapStyleTerrain": "ภูมิประเทศ",
+  "mapStyleHybrid": "ไฮบริด",
+  "draftSaveFailed": "ไม่สามารถบันทึกจุดของคุณได้ พวกเขาจะถูกบันทึกไว้อีกครั้งในการเปลี่ยนแปลงครั้งถัดไป",
+  "menuHelp": "ช่วย",
+  "actionGotIt": "เข้าใจแล้ว",
+  "helpTitleArea": "วิธีการวัดพื้นที่",
+  "helpTitleDistance": "วิธีวัดระยะทาง",
+  "helpTitleWalk": "วิธีเดินและวัดขนาด",
+  "helpAreaSummary": "เพิ่มจุดรอบขอบเขตที่ดินของคุณ",
+  "helpDistanceSummary": "เพิ่มจุดตามเส้นทางที่คุณต้องการวัด",
+  "helpWalkSummary": "เดินรอบๆ ขอบเขตขณะที่ LandMeasure บันทึกเส้นทาง GPS ของคุณ",
+  "helpPhotoTip": "ใช้ภาพถ่ายเพื่อบันทึกจุดสังเกต ขอบเขต หรือสภาพของสถานที่",
+  "helpAccuracyNote": "ความแม่นยำในการวัด GPS และแผนที่อาจแตกต่างกันไปขึ้นอยู่กับอุปกรณ์ ภาพแผนที่ และสภาพแวดล้อม",
+  "helpAreaStep1": "ย้ายแผนที่โดยให้เป้าเล็งอยู่ที่มุม แล้วแตะ **เพิ่มจุด**",
+  "helpAreaStep2": "เพิ่มอย่างน้อย 3 จุดรอบขอบเขต ลากจุดเพื่อปรับ",
+  "helpAreaStep3": "แตะ **ปิด** เพื่อสิ้นสุดรูปร่าง จากนั้น **บันทึกการวัด**",
+  "helpDistanceStep1": "วางเป้าเล็งไว้ที่จุดเริ่มต้นของเส้นทางแล้วแตะ **เพิ่มจุด**",
+  "helpDistanceStep2": "เพิ่มจุดตามเส้นทางต่อไป ความยาวแต่ละส่วนจะแสดงบนแผนที่",
+  "helpDistanceStep3": "แตะ **บันทึกเส้นทาง** เมื่อดำเนินการเสร็จแล้ว",
+  "helpWalkStep1": "รอ **GPS พร้อมใช้งาน** แล้วแตะ **เริ่มเดิน**",
+  "helpWalkStep2": "เดินไปตามเขตแดน ใช้ **หยุดชั่วคราว** หากคุณต้องการหยุด",
+  "helpWalkStep3": "กลับไปที่จุดเริ่มต้นแล้วแตะ **เสร็จสิ้น** เพื่อคำนวณพื้นที่",
+  "helpTipGpsPoint": "เคล็ดลับ: แตะ 📍 เพื่อเพิ่มจุดที่ตำแหน่ง GPS ปัจจุบันของคุณ",
+  "helpTipWalk": "เคล็ดลับ: อยู่ในพื้นที่เปิดโล่งเพื่อความแม่นยำของ GPS ที่ดีขึ้น",
+  "resultDistance": "ระยะทาง",
+  "resultDistanceNeedsPoints": "เพิ่มอย่างน้อย 2 จุดเพื่อวัดระยะทาง",
+  "resultSegmentCount": "{count} ช่วง",
+  "@resultSegmentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "segmentsTitle": "เซ็กเมนต์",
+  "draftSavedSnack": "บันทึกฉบับร่างแล้ว · {type} · {count} จุด",
+  "@draftSavedSnack": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "searchHint": "ที่อยู่ พิกัด หรือลิงค์ Google Maps",
+  "searchAction": "ค้นหา",
+  "searchRecent": "การค้นหาล่าสุด",
+  "searchNoResults": "ไม่พบสถานที่ ลองใช้พิกัดหรือลิงก์ Google Maps",
+  "searchNeedsInternet": "การค้นหาที่อยู่จำเป็นต้องมีการเชื่อมต่ออินเทอร์เน็ต",
+  "searchUnavailable": "การค้นหาที่อยู่ไม่พร้อมใช้งานบนอุปกรณ์นี้ ลองใช้พิกัดหรือลิงก์ Google Maps",
+  "searchClear": "ชัดเจน",
+  "searchFailed": "ไม่สามารถค้นหาที่อยู่นี้ได้ในขณะนี้ ลองใช้พิกัดหรือลิงก์ Google Maps",
+  "ctaStartWalking": "เริ่มเดิน",
+  "walkReadyHelper": "เดินรอบเขตแดนเพื่อบันทึกเส้นทางของคุณ",
+  "keepScreenOn": "เปิดหน้าจอไว้",
+  "walkRecording": "กำลังบันทึก GPS...",
+  "walkPaused": "หยุดชั่วคราว",
+  "walkPausedMessage": "แตะดำเนินการต่อเพื่อดำเนินการต่อจากจุดที่คุณอยู่",
+  "gpsAccuracyShort": "±{meters} m",
+  "@gpsAccuracyShort": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "gpsLowAccuracyMessage": "ความแม่นยำ ±{meters} m — จะยังไม่บันทึกจุดจนกว่าความแม่นยำจะดีขึ้น โปรดย้ายไปยังพื้นที่เปิดโล่ง",
+  "@gpsLowAccuracyMessage": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "locationDeniedTitle": "การเข้าถึงตำแหน่งปิดอยู่",
+  "locationDeniedMessage": "อนุญาตให้ตำแหน่งบันทึกการเดินของคุณ",
+  "actionAllow": "อนุญาต",
+  "actionNotNow": "ไม่ใช่ตอนนี้",
+  "mockLocationDetected": "ตรวจพบตำแหน่งจำลอง — ตำแหน่งเหล่านั้นจะไม่ถูกบันทึก",
+  "walkCloseToStart": "ใกล้ถึงจุดเริ่มต้น — สิ้นสุดเพื่อคำนวณพื้นที่",
+  "walkNotClosed": "เส้นทางไม่ปิด — ระยะทางเท่านั้น",
+  "walkKeepWalking": "เดินกลับไปที่จุดเริ่มต้นเพื่อปิดวง",
+  "resultDuration": "ระยะเวลา",
+  "walkNotificationTitle": "LandMeasure กำลังบันทึกการวัดของคุณ",
+  "walkNotificationText": "แตะเพื่อกลับไปสู่การเดินของคุณ",
+  "walkNotificationChannel": "บันทึกการเดิน",
+  "walkRecordingBack": "อยู่ระหว่างการบันทึก หยุดชั่วคราวหรือเสร็จสิ้นก่อนออกเดินทาง",
+  "walkPauseAndLeave": "หยุดชั่วคราวและออก",
+  "walkStartFailed": "ไม่สามารถเริ่มบันทึกได้ ลองอีกครั้ง",
+  "batteryHintTitle": "อนุญาตให้ LandMeasure ทำงานในพื้นหลัง",
+  "batteryHintMessage": "โทรศัพท์บางรุ่นจะหยุดแอปเมื่อหน้าจอปิดอยู่ หากต้องการบันทึกการเดินของคุณต่อ ให้เปิดการตั้งค่า → แบตเตอรี่ และเลือก \"ไม่มีข้อจำกัด\" (หรือ \"ไม่จำกัด\") สำหรับ LandMeasure",
+  "fabRecenter": "จัดกึ่งกลางอีกครั้ง",
+  "homeHeroSubtitle": "เลือกวิธีการวัดที่ดินของคุณ",
+  "homeContinueTitle": "ทำการวัดต่อ",
+  "homeSeeAllDrafts": "ดูฉบับร่างทั้งหมด",
+  "homeRecentTitle": "การวัดล่าสุด",
+  "homeRecentEmptyTitle": "ไม่มีการวัดล่าสุด",
+  "homeRecentEmptyMessage": "การวัดที่บันทึกไว้จะปรากฏที่นี่",
+  "actionSeeAll": "ดูทั้งหมด",
+  "untitledArea": "พื้นที่ที่ไม่มีชื่อ",
+  "untitledDistance": "ระยะทางที่ไม่มีชื่อ",
+  "untitledWalk": "เดินไม่มีชื่อ",
+  "draftLabel": "ร่าง",
+  "walkFinishedNotSaved": "เสร็จแล้ว · ไม่ได้บันทึก",
+  "lastEdited": "แก้ไขล่าสุด {time}",
+  "@lastEdited": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "timeJustNow": "แค่ตอนนี้",
+  "timeMinutesAgo": "{count} นาทีที่แล้ว",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{count} ชั่วโมงที่แล้ว",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDaysAgo": "{count} วันที่แล้ว",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedSearchHint": "ค้นหาตามชื่อ",
+  "savedSearchOpen": "ค้นหา",
+  "savedSearchClose": "ปิดการค้นหา",
+  "filterAll": "ทั้งหมด",
+  "filterWithCount": "{label} ({count})",
+  "@filterWithCount": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedDraftsTitle": "ร่าง ({count})",
+  "@savedDraftsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedNoResults": "ไม่พบการวัด",
+  "menuRename": "เปลี่ยนชื่อ",
+  "menuExport": "ส่งออก",
+  "measurementDeleted": "ลบการวัดแล้ว",
+  "draftDiscarded": "ทิ้งร่างแล้ว",
+  "exportTitle": "ส่งออก",
+  "renameHint": "ชื่อวัด",
+  "saveNameLabel": "ชื่อ",
+  "saveNameRequired": "ต้องระบุชื่อ",
+  "saveNotesLabel": "หมายเหตุ",
+  "saveNotesHint": "ขอบเขต เจ้าของ สถานที่สำคัญ... (ไม่บังคับ)",
+  "saveTypeLabel": "ประเภท",
+  "saveFailed": "ไม่สามารถบันทึกได้ โปรดลองอีกครั้ง",
+  "saveLimitReached": "คุณมีการวัดที่บันทึกไว้ถึงขีดจำกัดฟรีแล้ว อันนี้ยังคงอยู่ในฉบับร่างของคุณ",
+  "saveNotFound": "การวัดนี้ไม่มีอยู่แล้ว",
+  "photosTitle": "ภาพถ่ายไซต์ ({count})",
+  "@photosTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actionClose": "ปิด",
+  "resultPoints": "จุด",
+  "resultSegments": "เซ็กเมนต์",
+  "resultAvgPace": "ก้าวเฉลี่ย",
+  "paceValue": "{time} /{unit}",
+  "@paceValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "notesTitle": "หมายเหตุ",
+  "notesEmpty": "ไม่มีบันทึกย่อ",
+  "actionEdit": "แก้ไข",
+  "actionExport": "ส่งออก",
+  "detailOpenMap": "เปิดแผนที่",
+  "savedOn": "บันทึก {date} แล้ว",
+  "@savedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addPhotoTitle": "เพิ่มรูปภาพ",
+  "addPhotoCamera": "ถ่ายภาพ",
+  "addPhotoGallery": "เลือกจากแกลเลอรี่",
+  "addPhotoForPoint": "สำหรับจุด {number}",
+  "@addPhotoForPoint": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "addPhotoTile": "เพิ่มรูปภาพ",
+  "photoAddFailed": "ไม่สามารถเพิ่มรูปภาพได้ โปรดลองอีกครั้ง",
+  "photoRemoved": "ลบรูปภาพแล้ว",
+  "actionUndo": "เลิกทำ",
+  "photoLimitReached": "คุณมีรูปภาพฟรีถึงขีดจำกัดสำหรับการวัดนี้แล้ว",
+  "photoDeleteTitle": "ลบรูปภาพใช่ไหม",
+  "photoDeleteMessage": "รูปภาพนี้จะถูกนำออกจากการวัด",
+  "photoAttachTitle": "แนบรูปภาพนี้กับการวัดหรือไม่?",
+  "photoAttachMessage": "\"บันทึกรูปภาพไปที่การวัด\" ปิดอยู่ในการตั้งค่า",
+  "actionAttach": "แนบ",
+  "photoWaitForStart": "เริ่มเดินลงรูปเพิ่ม",
+  "photoCounter": "{index} / {total}",
+  "@photoCounter": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "photoShare": "แชร์",
+  "photoOpen": "เปิดภาพ {number}",
+  "@photoOpen": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "photoRemove": "ลบรูปภาพ",
+  "pointPhoto": "รูปถ่าย",
+  "cameraPermissionTitle": "อนุญาตให้เข้าถึงกล้อง",
+  "cameraPermissionMessage": "ถ่ายภาพจุดสังเกต ขอบเขต และสภาพของสถานที่ แล้วเก็บไว้พร้อมกับการวัดของคุณ",
+  "cameraPermissionDenied": "การเข้าถึงกล้องปิดอยู่ คุณสามารถเปิดใช้งานได้ในการตั้งค่า",
+  "actionContinue": "ดำเนินการต่อ",
+  "notesEditTitle": "แก้ไขบันทึก",
+  "notesAdd": "เพิ่มบันทึก",
+  "editTabResult": "ผลลัพธ์",
+  "editTabDetails": "รายละเอียด",
+  "ctaSaveChanges": "บันทึกการเปลี่ยนแปลง",
+  "dialogDiscardChangesMessage": "การเปลี่ยนแปลงการวัดนี้จะสูญหาย",
+  "changesSaved": "บันทึกการเปลี่ยนแปลงแล้ว",
+  "menuReopenShape": "เปิดรูปร่างอีกครั้ง",
+  "exportKml": "KML — Google Earth",
+  "exportKmlSubtitle": "รูปร่างและจุดภาพถ่ายสำหรับแอป Google Earth และ GIS",
+  "exportCsv": "CSV — Excel",
+  "exportCsvSubtitle": "ทุกจุดพร้อมพิกัดสำหรับสเปรดชีต",
+  "exportPreparing": "กำลังเตรียมไฟล์...",
+  "exportFailed": "ไม่สามารถส่งออกได้ โปรดลองอีกครั้ง",
+  "exportLimitReached": "ใช้สิทธิ์ส่งออก KML ฟรีของวันนี้แล้ว การส่งออก CSV ยังคงฟรี",
+  "landValueTitle": "มูลค่าที่ดิน",
+  "landValueAdd": "เพิ่มมูลค่าที่ดิน",
+  "landValueUnitPrice": "ราคาต่อหน่วย",
+  "landValueUnit": "ต่อ",
+  "landValueEstimated": "มูลค่าโดยประมาณ ≈ {value}",
+  "@landValueEstimated": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "landValueRate": "{price} / {unit}",
+  "@landValueRate": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "landValueNeedsArea": "ราคาที่ดินต้องการพื้นที่ (ปิดแบบ)",
+  "landValueRemove": "ลบ",
+  "landValueInvalid": "ป้อนราคาที่มากกว่า 0",
+  "resultValue": "ค่า",
+  "settingsSubtitle": "การตั้งค่าหน่วย แผนที่ และแอพ",
+  "settingsSectionPreferences": "การตั้งค่าการวัด",
+  "settingsSectionMeasureMap": "การวัดและแผนที่",
+  "settingsSectionSupport": "การสนับสนุนและกฎหมาย",
+  "settingsDefaultMode": "ประเภทการวัดเริ่มต้น",
+  "settingsDefaultModeHint": "เลือกไว้ในหน้าแรกเมื่อคุณเปิดแอป",
+  "settingsGpsAccuracy": "จอแสดงผลความแม่นยำของ GPS",
+  "settingsGpsAccuracySubtitle": "แสดง ±m และวงกลมความแม่นยำขณะเดิน",
+  "settingsAutoCenter": "จัดแผนที่ให้อยู่กึ่งกลางอัตโนมัติ",
+  "settingsAutoCenterSubtitle": "เปิดแผนที่ที่ตำแหน่งของคุณและติดตามคุณขณะเดิน",
+  "settingsSavePhotos": "บันทึกภาพถ่ายเพื่อการวัด",
+  "settingsSavePhotosSubtitle": "แนบรูปถ่ายใหม่โดยไม่ต้องถาม",
+  "settingsKeepAwake": "เปิดหน้าจอค้างไว้",
+  "settingsKeepAwakeSubtitle": "หน้าจอค้างขณะทำการวัด",
+  "settingsHelpFeedback": "ความช่วยเหลือและข้อเสนอแนะ",
+  "settingsRateUs": "ให้จุดเรา",
+  "settingsPrivacyPolicy": "นโยบายความเป็นส่วนตัว",
+  "settingsTerms": "เงื่อนไขการใช้งาน",
+  "settingsVersion": "เวอร์ชัน {version} ({build})",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackSubject": "ความคิดเห็นของ LandMeasure",
+  "feedbackNoEmailApp": "ไม่พบแอปอีเมล เขียนถึงเราที่ {email}",
+  "@feedbackNoEmailApp": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "linkOpenFailed": "ไม่สามารถเปิดลิงก์ได้ โปรดลองอีกครั้ง",
+  "unitsDistanceTitle": "ระยะทาง",
+  "unitsAreaTitle": "พื้นที่",
+  "unitsSecondary": "แสดงหน่วยรอง",
+  "unitsSecondaryExample": "เช่น {example}",
+  "@unitsSecondaryExample": {
+    "placeholders": {
+      "example": {
+        "type": "String"
+      }
+    }
+  },
+  "unitsNote": "การวัดใหม่ใช้หน่วยเหล่านี้ การวัดแต่ละครั้งยังสามารถสลับหน่วยจากผลลัพธ์ได้",
+  "unitMeters": "เมตร",
+  "unitKilometers": "กิโลเมตร",
+  "unitFeet": "ฟุต",
+  "unitMiles": "ไมล์",
+  "unitSquareMeters": "ตารางเมตร",
+  "unitHectares": "เฮกตาร์",
+  "unitAcres": "เอเคอร์",
+  "unitSquareFeet": "ตารางฟุต",
+  "mapStyleNote": "การวัดใหม่จะเปิดขึ้นพร้อมกับแผนที่นี้ คุณสามารถสลับแผนที่ใดก็ได้ด้วยปุ่มเลเยอร์",
+  "actionApply": "นำไปใช้",
+  "languageAppLanguages": "ภาษาของแอป",
+  "languageMachineNote": "ภาษานี้แปลด้วยเครื่องและอาจมีข้อผิดพลาด",
+  "locationPermissionTitle": "อนุญาตการเข้าถึงตำแหน่ง",
+  "locationPermissionMessage": "LandMeasure ใช้ตำแหน่งของคุณเพื่อแสดงตำแหน่งของคุณบนแผนที่ มันยังคงอยู่ในโทรศัพท์ของคุณ",
+  "locationPermissionMeasureMessage": "แสดงตำแหน่งของคุณบนแผนที่และเพิ่มจุดที่คุณยืน หากไม่มีมัน คุณยังคงสามารถวัดได้ด้วยการเลื่อนแผนที่",
+  "locationPermissionWalkMessage": "Walk & Measure บันทึกเส้นทางของคุณด้วย GPS ในขณะที่หน้าจอนี้เปิดอยู่ ตำแหน่งของคุณยังคงอยู่ในโทรศัพท์ของคุณ",
+  "locationPermissionBlocked": "การเข้าถึงตำแหน่งปิดอยู่สำหรับ LandMeasure เปิดในการตั้งค่าเพื่อใช้ตำแหน่งของคุณ",
+  "notificationPermissionTitle": "อนุญาตการแจ้งเตือน",
+  "notificationPermissionMessage": "อนุญาตการแจ้งเตือนเพื่อให้คุณเห็นสถานะการบันทึกในขณะที่หน้าจอปิดอยู่",
+  "actionRetry": "ลองอีกครั้ง",
+  "paywallTitle": "วัดได้ไม่จำกัด",
+  "paywallSubtitle": "ปลดล็อกโปรเจ็กต์ไม่จำกัดและฟีเจอร์ระดับพรีเมียม",
+  "paywallBenefitNoAds": "ไม่มีโฆษณา",
+  "paywallBenefitSaves": "การวัดที่บันทึกไว้ไม่จำกัด",
+  "paywallBenefitPhotos": "ไม่จำกัดรูปถ่ายต่อการวัด",
+  "paywallBenefitKml": "ส่งออก KML ได้ตลอดเวลา",
+  "paywallStartTrial": "เริ่มทดลองใช้ฟรี {days} วัน",
+  "@paywallStartTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "paywallTermsTrial": "ฟรี {days} วัน จากนั้น {price}/ปี ต่ออายุอัตโนมัติ — ยกเลิกได้ตลอดเวลาใน {store}",
+  "@paywallTermsTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallTermsYearly": "{price}/ปี ต่ออายุอัตโนมัติ — ยกเลิกได้ตลอดเวลาใน {store}",
+  "@paywallTermsYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallTermsMonthly": "{price}/เดือน ต่ออายุอัตโนมัติ — ยกเลิกได้ตลอดเวลาใน {store}",
+  "@paywallTermsMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallRestore": "คืนค่าการซื้อ",
+  "paywallWelcome": "ยินดีต้อนรับสู่พรีเมี่ยม!",
+  "paywallPending": "อยู่ระหว่างดำเนินการชำระเงิน ปลดล็อคพรีเมี่ยมทันทีที่เสร็จสิ้น",
+  "paywallPurchaseFailed": "การซื้อไม่สำเร็จ ไม่มีการเรียกเก็บเงินจากคุณ",
+  "paywallRestored": "คืนค่าการซื้อแล้ว",
+  "paywallNothingToRestore": "ไม่พบการซื้อก่อนหน้านี้สำหรับบัญชีร้านค้านี้",
+  "paywallRestoreFailed": "ไม่สามารถกู้คืนการซื้อได้ ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง",
+  "paywallUnavailable": "ไม่สามารถโหลดแผนได้ในขณะนี้ ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง",
+  "premiumActive": "ใช้งานระดับพรีเมียม",
+  "premiumActiveLifetime": "ใช้งานแบบพรีเมียม · ตลอดอายุการใช้งาน",
+  "premiumManage": "จัดการ",
+  "settingsPremiumTitle": "LandMeasure Premium",
+  "settingsPremiumSubtitle": "ไม่มีโฆษณา บันทึกและรูปภาพไม่จำกัด KML ได้ตลอดเวลา",
+  "settingsManageSubscription": "จัดการการสมัครสมาชิก",
+  "settingsPrivacyChoices": "ตัวเลือกความเป็นส่วนตัว",
+  "settingsAdInspector": "เครื่องมือตรวจสอบโฆษณา (dev)",
+  "exportUnlockTitle": "ใช้สิทธิ์ส่งออก KML ฟรีของวันนี้แล้ว",
+  "exportUnlockMessage": "ดูโฆษณาสั้นๆ เพื่อส่งออกไฟล์นี้ หรือรับ Premium เพื่อส่งออก KML แบบไม่จำกัด การส่งออก CSV ยังคงฟรี",
+  "exportWatchAd": "ดูโฆษณา",
+  "exportGetPremium": "รับ Premium",
+  "exportLoadingAd": "กำลังโหลดโฆษณา...",
+  "exportAdDismissed": "ดูโฆษณาให้จบเพื่อปลดล็อกการส่งออกนี้",
+  "introNext": "ต่อไป",
+  "introGetStarted": "เริ่มต้นเลย",
+  "introAreaTitle": "วัดพื้นที่ได้อย่างง่ายดาย",
+  "introAreaBody": "ทำเครื่องหมายจุดบนแผนที่เพื่อวัดที่ดิน ทุ่งนา และพื้นที่อื่นๆ ได้ในไม่กี่วินาที",
+  "introDistanceTitle": "วัดระยะทางและเส้นทาง",
+  "introDistanceBody": "วัดระยะทางเป็นเส้นตรงหรือติดตามเส้นทางของคุณขณะเดินกลางแจ้ง",
+  "introFieldTitle": "สร้างมาเพื่อการทำงานภาคสนามจริง",
+  "introFieldBody": "วัดฟาร์ม ที่ดิน อสังหาริมทรัพย์ และสถานที่กลางแจ้งได้อย่างง่ายดาย",
+  "paywallTrialTitle": "ทดลองใช้ฟรี {days} วัน",
+  "@paywallTrialTitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "paywallThenMonthly": "แล้ว {price}/เดือน",
+  "@paywallThenMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallMonthlyTitle": "แผนรายเดือน",
+  "paywallMonthlyPrice": "{price}/เดือน",
+  "@paywallMonthlyPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallYearlyTitle": "แผนรายปี",
+  "paywallYearlyOnly": "เพียง {price} ต่อปี",
+  "@paywallYearlyOnly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallBestPrice": "ราคาดีที่สุด",
+  "paywallMostPopular": "ที่นิยมมากที่สุด",
+  "paywallStartFreeTrial": "เริ่มทดลองใช้ฟรี",
+  "paywallTrialThenYearly": "ทดลองใช้ฟรี {days} วัน จากนั้น {price}/ปี",
+  "@paywallTrialThenYearly": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallPricePerYear": "{price}/ปี",
+  "@paywallPricePerYear": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallCancelAnytime": "ยกเลิกได้ตลอดเวลา",
+  "paywallTermsTrialMonthly": "ฟรี {days} วัน จากนั้นจึง {price}/เดือน ต่ออายุอัตโนมัติ — ยกเลิกได้ตลอดเวลาใน {store}",
+  "@paywallTermsTrialMonthly": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumPromptTitle": "ไปแบบพรีเมียม",
+  "premiumPromptPhotos": "คุณสามารถเพิ่มรูปภาพได้ฟรีสูงสุด {count} รูปต่อการวัด อัปเกรดเป็น Premium เพื่อเพิ่มรูปภาพได้มากขึ้น",
+  "@premiumPromptPhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "premiumPromptUpgrade": "อัปเกรด",
+  "premiumBadge": "Premium",
+  "languageChooseTitle": "เลือกภาษาของคุณ",
+  "premiumPromptMapStyleReward": "แผนที่ {style} เป็นฟีเจอร์ Premium ดูโฆษณาสั้นๆ เพื่อใช้งานจนกว่าจะปิดแอป หรืออัปเกรดเพื่อใช้งานได้ตลอด",
+  "@premiumPromptMapStyleReward": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStyleUnlocked": "ปลดล็อกแผนที่ {style} จนกว่าคุณจะปิดแอป",
+  "@mapStyleUnlocked": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStyleAdDismissed": "ดูโฆษณาให้จบเพื่อปลดล็อคแผนที่นี้",
+  "pdfReportTitleArea": "รายงานการวัดที่ดิน",
+  "pdfReportTitleDistance": "รายงานการวัดระยะทาง",
+  "pdfReportTitleWalk": "รายงานการวัดการเดิน",
+  "pdfReportSubtitle": "สรุปการส่งออกการวัดที่บันทึกไว้",
+  "pdfHeaderLabel": "รายงานการวัด",
+  "pdfFooterGenerated": "สร้างโดย LandMeasure",
+  "pdfFooterEstimate": "การวัด GPS/แผนที่เป็นการประมาณการ และอาจแตกต่างกันไปตามอุปกรณ์และสภาพแวดล้อม",
+  "pdfPage": "หน้า {page} ของ {pages}",
+  "@pdfPage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "pages": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfName": "ชื่อการวัด",
+  "pdfType": "ประเภท",
+  "pdfDateSaved": "วันที่บันทึก",
+  "pdfReportId": "รหัสรายงาน",
+  "pdfSummary": "สรุปการวัด",
+  "pdfArea": "พื้นที่",
+  "pdfPerimeter": "เส้นรอบรูป",
+  "pdfDistance": "ระยะทาง",
+  "pdfDuration": "ระยะเวลา",
+  "pdfPoints": "จุด",
+  "pdfSegments": "เซ็กเมนต์",
+  "pdfMethod": "วิธี",
+  "pdfSubBoundaryVertices": "จุดยอดขอบเขต",
+  "pdfSubRoutePoints": "จุดเส้นทาง",
+  "pdfSubTrackPoints": "จุดติดตามเส้นทาง",
+  "pdfSubSegments": "ระหว่างจุด",
+  "pdfMethodMapPoints": "จุดแผนที่",
+  "pdfMethodPolygon": "รูปหลายเหลี่ยมแบบแมนนวล",
+  "pdfMethodRoute": "คู่มือเส้นทาง",
+  "pdfAreaNotClosed": "ไม่ปิด",
+  "pdfAreaNotClosedSub": "เส้นทางไม่ก่อให้เกิดการวนซ้ำ",
+  "pdfMapBoundary": "แผนที่และรูปร่าง",
+  "pdfMapCaption": "แผนผังรูปร่างที่วัดได้ · ทิศเหนือขึ้น",
+  "pdfCenter": "พิกัดจุดศูนย์กลาง",
+  "pdfMapStyle": "รูปแบบแผนที่",
+  "pdfDisplayUnits": "หน่วยแสดงผล",
+  "pdfCoordinates": "พิกัด",
+  "pdfCoordinatesHint": "จุดจะแสดงตามลำดับการวัด",
+  "pdfColPoint": "จุด",
+  "pdfColLatitude": "ละติจูด",
+  "pdfColLongitude": "ลองจิจูด",
+  "pdfColSegment": "เซ็กเมนต์",
+  "pdfColNote": "บันทึก",
+  "pdfNoteStart": "เริ่ม",
+  "pdfNoteEnd": "จบ",
+  "pdfNotePhoto": "แนบรูปถ่าย",
+  "pdfMorePoints": "ไม่ได้แสดงอีก {count} จุด ส่งออก CSV เพื่อดูจุดทั้งหมด",
+  "@pdfMorePoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfNotes": "บันทึกการสำรวจ",
+  "pdfPhotos": "ภาพถ่ายพื้นที่",
+  "pdfPhotoN": "ภาพถ่าย {n}",
+  "@pdfPhotoN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfPhotoPoint": "ที่ {point}",
+  "@pdfPhotoPoint": {
+    "placeholders": {
+      "point": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfCaptured": "ถ่ายเมื่อ {date}",
+  "@pdfCaptured": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfMorePhotos": "ไม่ได้แสดงอีก {count} รูป",
+  "@pdfMorePhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfExportInfo": "ข้อมูลการส่งออก",
+  "pdfSource": "แหล่งที่มา",
+  "pdfSourceAndroid": "LandMeasure ระบบปฏิบัติการ Android",
+  "pdfSourceIos": "iOS ของ LandMeasure",
+  "pdfCoordFormat": "รูปแบบพิกัด",
+  "pdfCoordFormatValue": "WGS 84 ละติจูด/ลองจิจูด",
+  "pdfExported": "ส่งออกแล้ว",
+  "pdfCompanion": "รูปแบบการส่งออกอื่นๆ",
+  "pdfAccuracyTitle": "ประกาศความถูกต้อง:",
+  "pdfAccuracyBody": "รายงานนี้จะสรุปการวัดที่คำนวณจากจุดบนแผนที่และ/หรือข้อมูล GPS ของอุปกรณ์ ผลลัพธ์เป็นการประมาณการและอาจแตกต่างไปตามความแม่นยำของอุปกรณ์ การมองเห็นดาวเทียม ภาพแผนที่ ภูมิประเทศ และตำแหน่งที่วางขอบเขต เอกสารนี้ไม่ใช่การสำรวจที่ดินหรือที่ดินตามกฎหมายที่ได้รับการรับรอง เว้นแต่จะมีการตรวจสอบแยกต่างหากโดยผู้เชี่ยวชาญด้านการสำรวจที่ได้รับอนุญาต",
+  "exportPdf": "PDF — รายงาน",
+  "exportPdfSubtitle": "รายงานที่สามารถพิมพ์ได้พร้อมแผนที่ พิกัด บันทึก และรูปถ่าย",
+  "projectLimitTitle": "ถึงขีดจำกัดโครงการฟรีแล้ว",
+  "projectLimitMessage": "คุณมี 4 โครงการฟรี ดูโฆษณาแบบเต็มเพื่อสร้างโปรเจ็กต์เพิ่มเติม หรืออัปเกรดเป็นพรีเมียมสำหรับโปรเจ็กต์ไม่จำกัด",
+  "projectRewardRequired": "ดูโฆษณาให้จบเพื่อปลดล็อกอีกหนึ่งโปรเจ็กต์ หากไม่มีโฆษณา ให้ลองอีกครั้งในภายหลังหรืออัปเกรดเป็น Premium"
+}

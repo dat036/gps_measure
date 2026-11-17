@@ -1,0 +1,775 @@
+{
+  "@@locale": "nl",
+  "appTitle": "LandMeasure",
+  "navHome": "Start",
+  "navSaved": "Opgeslagen",
+  "navSettings": "Instellingen",
+  "measurementTypeArea": "Oppervlakte",
+  "measurementTypeDistance": "Afstand",
+  "measurementTypeWalk": "Wandelen",
+  "screenMeasureArea": "Oppervlakte meten",
+  "screenMeasureDistance": "Meet afstand",
+  "screenWalk": "Lopen en meten",
+  "screenSave": "Meting opslaan",
+  "screenDetail": "Meetdetail",
+  "screenFullMap": "Kaart",
+  "screenEdit": "Meting bewerken",
+  "screenSaved": "Opgeslagen metingen",
+  "screenSettings": "Instellingen",
+  "screenUnits": "Eenheden",
+  "screenMapStyle": "Kaartstijl",
+  "screenLanguage": "Taal",
+  "screenPaywall": "Premium",
+  "ctaStartMeasuring": "Begin met meten",
+  "ctaStartArea": "Oppervlaktemeting starten",
+  "ctaStartDistance": "Afstandsmeting starten",
+  "ctaStartWalk": "Start loopmeting",
+  "ctaSaveMeasurement": "Meting opslaan",
+  "ctaSaveRoute": "Route opslaan",
+  "ctaPause": "Pauze",
+  "ctaResume": "Hervatten",
+  "ctaFinish": "Voltooien",
+  "actionCancel": "Annuleren",
+  "actionSave": "Opslaan",
+  "actionDiscard": "Verwerpen",
+  "actionDelete": "Verwijderen",
+  "actionReset": "Opnieuw instellen",
+  "actionOpenSettings": "Instellingen openen",
+  "actionKeepRecording": "Blijf opnemen",
+  "actionKeepEditing": "Blijf bewerken",
+  "dialogResetTitle": "Meting resetten?",
+  "dialogResetMessage": "Hiermee worden alle punten verwijderd.",
+  "dialogDiscardDraftTitle": "Dit concept weggooien?",
+  "dialogDiscardDraftMessage": "Alle punten en niet-opgeslagen wijzigingen worden verwijderd.",
+  "dialogDeleteTitle": "Meting verwijderen?",
+  "dialogDeleteMessage": "Deze meting, de foto's en aantekeningen worden permanent verwijderd.",
+  "dialogFinishWalkTitle": "Opname voltooien?",
+  "dialogFinishWalkMessage": "GPS-tracking stopt.",
+  "dialogRenameTitle": "Hernoem meting",
+  "dialogDiscardChangesTitle": "Wijzigingen weggooien?",
+  "fabLayers": "Kaartlagen",
+  "fabMyLocation": "Mijn locatie",
+  "fabSearch": "Plaats zoeken",
+  "fabCamera": "Maak een foto",
+  "gpsReady": "GPS gereed",
+  "gpsSearching": "Zoeken naar GPS…",
+  "gpsLowAccuracy": "Lage GPS-nauwkeurigheid",
+  "locationOff": "Locatie is uitgeschakeld",
+  "locationOffMessage": "Schakel locatie in om uw wandeling vast te leggen.",
+  "mapOffline": "Kaartverbinding niet beschikbaar: uw punten zijn veilig",
+  "emptyNoMeasurementsTitle": "Nog geen metingen",
+  "emptyNoMeasurementsMessage": "Meet uw eerste stuk land en het zal hier verschijnen.",
+  "languageSystem": "Systeemstandaard",
+  "measureHintCrosshair": "Verplaats de kaart om het draadkruis te plaatsen en tik vervolgens op Punt toevoegen.",
+  "measureHintTap": "Tik op de kaart om punten rond de grens toe te voegen.",
+  "toolbarUndo": "Ongedaan maken",
+  "toolbarAddPoint": "Punt toevoegen",
+  "toolbarClose": "Vorm sluiten",
+  "toolbarReset": "Opnieuw instellen",
+  "toolbarAddAtMyLocation": "Voeg een punt toe op mijn locatie",
+  "resultArea": "Oppervlakte",
+  "resultPerimeter": "Omtrek",
+  "resultAreaNeedsPoints": "Voeg minimaal 3 punten toe om de oppervlakte te berekenen",
+  "resultPointCount": "{count, plural, one{1 punt} other{{count} punten}}",
+  "@resultPointCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "edgesCross": "Randen kruisen elkaar: gebied is mogelijk onjuist",
+  "menuMore": "Meer opties",
+  "menuInputCrosshair": "Voeg toe met draadkruis",
+  "menuInputTap": "Voeg toe door op de kaart te tikken",
+  "menuShowEdgeLabels": "Toon randlengtes",
+  "pointLabel": "Punt {number}",
+  "@pointLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "pointDelete": "Punt verwijderen",
+  "pointDeselect": "Klaar",
+  "gpsLowAccuracyAdded": "De GPS-nauwkeurigheid is laag (±{meters} m). Het punt is toch toegevoegd.",
+  "@gpsLowAccuracyAdded": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "locationUnavailable": "Kan je locatie niet ophalen. Probeer het opnieuw buitenshuis.",
+  "locationPermissionDenied": "Locatietoegang is uitgeschakeld. Je kunt nog steeds meten door de kaart te verplaatsen.",
+  "locationServiceOff": "Locatie is uitgeschakeld op dit apparaat.",
+  "mapLayersTitle": "Kaarttype",
+  "mapStyleStandard": "Standaard",
+  "mapStyleSatellite": "Satelliet",
+  "mapStyleTerrain": "Terrein",
+  "mapStyleHybrid": "Hybride",
+  "draftSaveFailed": "Kan je punten niet opslaan. Bij de volgende wijziging worden ze opnieuw opgeslagen.",
+  "menuHelp": "Hulp",
+  "actionGotIt": "Begrepen",
+  "helpTitleArea": "Hoe het gebied te meten",
+  "helpTitleDistance": "Hoe afstand te meten",
+  "helpTitleWalk": "Hoe te lopen en te meten",
+  "helpAreaSummary": "Voeg punten toe rond de grens van je land.",
+  "helpDistanceSummary": "Voeg punten toe langs de route die u wilt meten.",
+  "helpWalkSummary": "Loop rond de grens terwijl LandMeasure uw GPS-pad registreert.",
+  "helpPhotoTip": "Gebruik foto's om oriëntatiepunten, grenzen of locatieomstandigheden te documenteren.",
+  "helpAccuracyNote": "De nauwkeurigheid van GPS- en kaartmetingen kan variëren, afhankelijk van het apparaat, de kaartbeelden en de omgeving.",
+  "helpAreaStep1": "Verplaats de kaart zodat het draadkruis op een hoek staat en tik vervolgens op **Punt toevoegen**.",
+  "helpAreaStep2": "Voeg minimaal 3 punten rond de grens toe. Versleep een punt om het aan te passen.",
+  "helpAreaStep3": "Tik op **Sluiten** om de vorm te voltooien en vervolgens op **Meting opslaan**.",
+  "helpDistanceStep1": "Plaats het draadkruis op het begin van uw route en tik op **Punt toevoegen**.",
+  "helpDistanceStep2": "Blijf punten toevoegen langs de route. Elke segmentlengte wordt op de kaart weergegeven.",
+  "helpDistanceStep3": "Tik op **Route opslaan** als je klaar bent.",
+  "helpWalkStep1": "Wacht op **GPS gereed** en tik vervolgens op **Begin met lopen**.",
+  "helpWalkStep2": "Loop langs de grens. Gebruik **Pauze** als u wilt stoppen.",
+  "helpWalkStep3": "Keer terug naar uw startpunt en tik op **Voltooien** om het gebied te berekenen.",
+  "helpTipGpsPoint": "Tip: tik op 📍 om een ​​punt toe te voegen aan uw huidige GPS-locatie.",
+  "helpTipWalk": "Tip: blijf in open gebieden voor een betere GPS-nauwkeurigheid.",
+  "resultDistance": "Afstand",
+  "resultDistanceNeedsPoints": "Voeg minimaal 2 punten toe om de afstand te meten",
+  "resultSegmentCount": "{count, plural, one{1 segment} other{{count} segmenten}}",
+  "@resultSegmentCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "segmentsTitle": "Segmenten",
+  "draftSavedSnack": "{count, plural, one{Concept opgeslagen · {type} · 1 punt} other{Concept opgeslagen · {type} · {count} punten}}",
+  "@draftSavedSnack": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "searchHint": "Adres, coördinaten of Google Maps-link",
+  "searchAction": "Zoekopdracht",
+  "searchRecent": "Recente zoekopdrachten",
+  "searchNoResults": "Geen plaatsen gevonden. Probeer coördinaten of een Google Maps-link.",
+  "searchNeedsInternet": "Voor het zoeken naar een adres is een internetverbinding nodig.",
+  "searchUnavailable": "Adreszoeken is niet beschikbaar op dit apparaat. Probeer coördinaten of een Google Maps-link.",
+  "searchClear": "Duidelijk",
+  "searchFailed": "Kan dit adres momenteel niet doorzoeken. Probeer coördinaten of een Google Maps-link.",
+  "ctaStartWalking": "Begin met lopen",
+  "walkReadyHelper": "Loop rond de grens om uw pad vast te leggen.",
+  "keepScreenOn": "Houd het scherm ingeschakeld",
+  "walkRecording": "GPS opnemen…",
+  "walkPaused": "Gepauzeerd",
+  "walkPausedMessage": "Tik op Hervatten om door te gaan waar u bent.",
+  "gpsAccuracyShort": "±{meters} m",
+  "@gpsAccuracyShort": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "gpsLowAccuracyMessage": "Nauwkeurigheid ±{meters} m — punten worden pas geregistreerd als deze verbetert. Ga naar een open ruimte.",
+  "@gpsLowAccuracyMessage": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "locationDeniedTitle": "Locatietoegang is uitgeschakeld",
+  "locationDeniedMessage": "Geef de locatie toestemming om uw wandeling vast te leggen.",
+  "actionAllow": "Toestaan",
+  "actionNotNow": "Niet nu",
+  "mockLocationDetected": "Namaaklocatie gedetecteerd – deze posities worden niet vastgelegd.",
+  "walkCloseToStart": "Dicht bij start — eindig om de oppervlakte te berekenen",
+  "walkNotClosed": "Route niet afgesloten — alleen afstand",
+  "walkKeepWalking": "Loop terug naar je startpunt om de lus te sluiten.",
+  "resultDuration": "Duur",
+  "walkNotificationTitle": "LandMeasure registreert uw meting",
+  "walkNotificationText": "Tik om terug te keren naar je wandeling.",
+  "walkNotificationChannel": "Wandelopname",
+  "walkRecordingBack": "Opname bezig. Pauzeer of voltooi voordat u vertrekt.",
+  "walkPauseAndLeave": "Pauzeer en vertrek",
+  "walkStartFailed": "Kan de opname niet starten. Probeer het opnieuw.",
+  "batteryHintTitle": "Laat LandMeasure op de achtergrond draaien",
+  "batteryHintMessage": "Sommige telefoons stoppen apps wanneer het scherm is uitgeschakeld. Om uw wandeling te blijven opnemen, opent u Instellingen → Batterij en kiest u \"Geen beperkingen\" (of \"Onbeperkt\") voor LandMeasure.",
+  "fabRecenter": "Opnieuw centreren",
+  "homeHeroSubtitle": "Kies een methode om uw land te meten.",
+  "homeContinueTitle": "Ga door met meten",
+  "homeSeeAllDrafts": "Bekijk alle concepten",
+  "homeRecentTitle": "Recente metingen",
+  "homeRecentEmptyTitle": "Geen recente metingen",
+  "homeRecentEmptyMessage": "Hier verschijnen opgeslagen metingen.",
+  "actionSeeAll": "Bekijk alles",
+  "untitledArea": "Naamloos gebied",
+  "untitledDistance": "Naamloze afstand",
+  "untitledWalk": "Naamloze wandeling",
+  "draftLabel": "Voorlopige versie",
+  "walkFinishedNotSaved": "Voltooid · niet opgeslagen",
+  "lastEdited": "Laatst bewerkt {time}",
+  "@lastEdited": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "timeJustNow": "zojuist",
+  "timeMinutesAgo": "{count, plural, one{1 min geleden} other{{count} min geleden}}",
+  "@timeMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{count, plural, one{1 uur geleden} other{{count} uur geleden}}",
+  "@timeHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDaysAgo": "{count, plural, =1{gisteren} other{{count} dagen geleden}}",
+  "@timeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedSearchHint": "Zoek op naam",
+  "savedSearchOpen": "Zoekopdracht",
+  "savedSearchClose": "Zoekopdracht sluiten",
+  "filterAll": "Alle",
+  "filterWithCount": "{label} ({count})",
+  "@filterWithCount": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedDraftsTitle": "Concepten ({count})",
+  "@savedDraftsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedNoResults": "Geen metingen gevonden.",
+  "menuRename": "Hernoemen",
+  "menuExport": "Exporteren",
+  "measurementDeleted": "Meting verwijderd",
+  "draftDiscarded": "Concept weggegooid",
+  "exportTitle": "Exporteren",
+  "renameHint": "Naam van meting",
+  "saveNameLabel": "Naam",
+  "saveNameRequired": "Naam is vereist",
+  "saveNotesLabel": "Opmerkingen",
+  "saveNotesHint": "Grenzen, eigenaar, oriëntatiepunten… (optioneel)",
+  "saveTypeLabel": "Type",
+  "saveFailed": "Kan niet opslaan. Probeer het opnieuw.",
+  "saveLimitReached": "U heeft de vrije limiet van opgeslagen metingen bereikt. Deze blijft in je concepten.",
+  "saveNotFound": "Deze meting bestaat niet meer.",
+  "photosTitle": "Locatiefoto's ({count})",
+  "@photosTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "actionClose": "Sluiten",
+  "resultPoints": "Punten",
+  "resultSegments": "Segmenten",
+  "resultAvgPace": "Gemiddeld tempo",
+  "paceValue": "{time} /{unit}",
+  "@paceValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "notesTitle": "Opmerkingen",
+  "notesEmpty": "Geen aantekeningen",
+  "actionEdit": "Bewerken",
+  "actionExport": "Exporteren",
+  "detailOpenMap": "Kaart openen",
+  "savedOn": "{date} opgeslagen",
+  "@savedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addPhotoTitle": "Foto toevoegen",
+  "addPhotoCamera": "Maak een foto",
+  "addPhotoGallery": "Kies uit Galerij",
+  "addPhotoForPoint": "Voor punt {number}",
+  "@addPhotoForPoint": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "addPhotoTile": "Foto toevoegen",
+  "photoAddFailed": "Kan de foto niet toevoegen. Probeer het opnieuw.",
+  "photoRemoved": "Foto verwijderd",
+  "actionUndo": "Ongedaan maken",
+  "photoLimitReached": "U heeft de vrije limiet voor het aantal foto's voor deze meting bereikt.",
+  "photoDeleteTitle": "Foto verwijderen?",
+  "photoDeleteMessage": "Deze foto wordt verwijderd uit de meting.",
+  "photoAttachTitle": "Deze foto bij de meting voegen?",
+  "photoAttachMessage": "'Foto's opslaan in meting' is uitgeschakeld in Instellingen.",
+  "actionAttach": "Bijvoegen",
+  "photoWaitForStart": "Begin te lopen om foto's toe te voegen.",
+  "photoCounter": "{index} / {total}",
+  "@photoCounter": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "photoShare": "Delen",
+  "photoOpen": "Foto {number} openen",
+  "@photoOpen": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "photoRemove": "Foto verwijderen",
+  "pointPhoto": "Foto",
+  "cameraPermissionTitle": "Cameratoegang toestaan",
+  "cameraPermissionMessage": "Maak foto's van oriëntatiepunten, grenzen en omstandigheden ter plaatse en bewaar ze bij uw meting.",
+  "cameraPermissionDenied": "Cameratoegang is uitgeschakeld. Je kunt het inschakelen in Instellingen.",
+  "actionContinue": "Doorgaan",
+  "notesEditTitle": "Bewerk notities",
+  "notesAdd": "Voeg notities toe",
+  "editTabResult": "Resultaat",
+  "editTabDetails": "Details",
+  "ctaSaveChanges": "Wijzigingen opslaan",
+  "dialogDiscardChangesMessage": "Uw wijzigingen in deze meting gaan verloren.",
+  "changesSaved": "Wijzigingen opgeslagen",
+  "menuReopenShape": "Vorm opnieuw openen",
+  "exportKml": "KML — Google Earth",
+  "exportKmlSubtitle": "Vorm- en fotopunten voor Google Earth en GIS-apps",
+  "exportCsv": "CSV-Excel",
+  "exportCsvSubtitle": "Elk punt met coördinaten, voor spreadsheets",
+  "exportPreparing": "Bestand voorbereiden…",
+  "exportFailed": "Kan niet exporteren. Probeer het opnieuw.",
+  "exportLimitReached": "De gratis KML-export van vandaag is al gebruikt. CSV-export blijft gratis.",
+  "landValueTitle": "Grondwaarde",
+  "landValueAdd": "Voeg grondwaarde toe",
+  "landValueUnitPrice": "Eenheidsprijs",
+  "landValueUnit": "Per",
+  "landValueEstimated": "Geschatte waarde ≈ {value}",
+  "@landValueEstimated": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "landValueRate": "{price} / {unit}",
+  "@landValueRate": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "landValueNeedsArea": "De grondwaarde heeft een oppervlakte nodig (sluit de vorm).",
+  "landValueRemove": "Verwijderen",
+  "landValueInvalid": "Voer een prijs in die groter is dan 0",
+  "resultValue": "Waarde",
+  "settingsSubtitle": "Eenheden, kaart- en app-voorkeuren",
+  "settingsSectionPreferences": "Meetvoorkeuren",
+  "settingsSectionMeasureMap": "Meting en kaart",
+  "settingsSectionSupport": "Ondersteuning en juridisch",
+  "settingsDefaultMode": "Standaard meettype",
+  "settingsDefaultModeHint": "Geselecteerd op Home wanneer je de app opent.",
+  "settingsGpsAccuracy": "GPS-nauwkeurigheidsweergave",
+  "settingsGpsAccuracySubtitle": "Toon ±m en de nauwkeurigheidscirkel tijdens het lopen",
+  "settingsAutoCenter": "Kaart automatisch centreren",
+  "settingsAutoCenterSubtitle": "Open kaarten op uw locatie en volg u tijdens het wandelen",
+  "settingsSavePhotos": "Foto's opslaan in meting",
+  "settingsSavePhotosSubtitle": "Voeg nieuwe foto's toe zonder te vragen",
+  "settingsKeepAwake": "Scherm aanhouden",
+  "settingsKeepAwakeSubtitle": "Scherm blijft aan tijdens het meten",
+  "settingsHelpFeedback": "Hulp en feedback",
+  "settingsRateUs": "Beoordeel ons",
+  "settingsPrivacyPolicy": "Privacybeleid",
+  "settingsTerms": "Gebruiksvoorwaarden",
+  "settingsVersion": "Versie {version} ({build})",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackSubject": "Feedback over landmetingen",
+  "feedbackNoEmailApp": "Geen e-mailapp gevonden. Schrijf ons op {email}.",
+  "@feedbackNoEmailApp": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "linkOpenFailed": "Kan de link niet openen. Probeer het opnieuw.",
+  "unitsDistanceTitle": "Afstand",
+  "unitsAreaTitle": "Oppervlakte",
+  "unitsSecondary": "Toon secundaire eenheid",
+  "unitsSecondaryExample": "bijv. {example}",
+  "@unitsSecondaryExample": {
+    "placeholders": {
+      "example": {
+        "type": "String"
+      }
+    }
+  },
+  "unitsNote": "Nieuwe metingen gebruiken deze eenheden. Bij elke meting kan ook de eenheid van het resultaat worden gewijzigd.",
+  "unitMeters": "Meters",
+  "unitKilometers": "Kilometers",
+  "unitFeet": "Voet",
+  "unitMiles": "Mijlen",
+  "unitSquareMeters": "Vierkante meter",
+  "unitHectares": "Hectaren",
+  "unitAcres": "Acres",
+  "unitSquareFeet": "Vierkante voet",
+  "mapStyleNote": "Met deze kaart worden nieuwe metingen geopend. U kunt van kaart wisselen met de knop Lagen.",
+  "actionApply": "Toepassen",
+  "languageAppLanguages": "App-talen",
+  "languageMachineNote": "Deze taal is machinaal vertaald en kan fouten bevatten.",
+  "locationPermissionTitle": "Locatietoegang toestaan",
+  "locationPermissionMessage": "LandMeasure gebruikt uw locatie om op de kaart te laten zien waar u zich bevindt. Het blijft op je telefoon staan.",
+  "locationPermissionMeasureMessage": "Laat op de kaart zien waar u zich bevindt en voeg punten toe waar u zich bevindt. Zonder kunt u nog steeds meten door de kaart te verplaatsen.",
+  "locationPermissionWalkMessage": "Walk & Measure registreert uw pad met GPS terwijl dit scherm geopend is. Uw locatie blijft op uw telefoon.",
+  "locationPermissionBlocked": "Locatietoegang is uitgeschakeld voor LandMeasure. Schakel het in Instellingen in om uw positie te gebruiken.",
+  "notificationPermissionTitle": "Meldingen toestaan",
+  "notificationPermissionMessage": "Sta meldingen toe zodat u de opnamestatus kunt zien terwijl uw scherm is uitgeschakeld.",
+  "actionRetry": "Opnieuw proberen",
+  "paywallTitle": "Meten zonder grenzen",
+  "paywallSubtitle": "Ontgrendel onbeperkte projecten en premiumfuncties.",
+  "paywallBenefitNoAds": "Geen advertenties",
+  "paywallBenefitSaves": "Onbeperkt opgeslagen metingen",
+  "paywallBenefitPhotos": "Onbeperkt foto's per meting",
+  "paywallBenefitKml": "KML-export op elk gewenst moment",
+  "paywallStartTrial": "Start een gratis proefperiode van {days} dagen",
+  "@paywallStartTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "paywallTermsTrial": "{days} dagen gratis, daarna {price}/jaar. Wordt automatisch verlengd — op elk moment opzegbaar in {store}.",
+  "@paywallTermsTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallTermsYearly": "{price}/jaar. Wordt automatisch verlengd. Je kunt op elk gewenst moment opzeggen in {store}.",
+  "@paywallTermsYearly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallTermsMonthly": "{price}/maand. Wordt automatisch verlengd. Je kunt op elk gewenst moment opzeggen in {store}.",
+  "@paywallTermsMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallRestore": "Aankopen herstellen",
+  "paywallWelcome": "Welkom bij Premium!",
+  "paywallPending": "Betaling in behandeling. Premium wordt ontgrendeld zodra het is voltooid.",
+  "paywallPurchaseFailed": "De aankoop is mislukt. Er zijn geen kosten in rekening gebracht.",
+  "paywallRestored": "Aankopen hersteld.",
+  "paywallNothingToRestore": "Er is geen eerdere aankoop gevonden voor dit winkelaccount.",
+  "paywallRestoreFailed": "Kan aankopen niet herstellen. Controleer uw verbinding en probeer het opnieuw.",
+  "paywallUnavailable": "Plannen kunnen momenteel niet worden geladen. Controleer uw verbinding en probeer het opnieuw.",
+  "premiumActive": "Premium actief",
+  "premiumActiveLifetime": "Premium actief · Levenslang",
+  "premiumManage": "Beheren",
+  "settingsPremiumTitle": "LandMeasure Premium",
+  "settingsPremiumSubtitle": "Geen advertenties, onbeperkt opslaan en foto's, KML op elk gewenst moment",
+  "settingsManageSubscription": "Beheer abonnement",
+  "settingsPrivacyChoices": "Privacy-keuzes",
+  "settingsAdInspector": "Advertentieinspecteur (ontwikkelaar)",
+  "exportUnlockTitle": "De gratis KML-export van vandaag is al gebruikt",
+  "exportUnlockMessage": "Bekijk een korte advertentie om dit bestand te exporteren, of neem Premium voor onbeperkte KML-exports. CSV-export blijft gratis.",
+  "exportWatchAd": "Bekijk een advertentie",
+  "exportGetPremium": "Neem Premium",
+  "exportLoadingAd": "Advertentie laden…",
+  "exportAdDismissed": "Bekijk de advertentie tot het einde om deze export te ontgrendelen.",
+  "introNext": "Volgende",
+  "introGetStarted": "Aan de slag",
+  "introAreaTitle": "Meet het gebied eenvoudig",
+  "introAreaBody": "Markeer punten op de kaart om binnen enkele seconden land, velden en andere gebieden te meten.",
+  "introDistanceTitle": "Meet afstand en routes",
+  "introDistanceBody": "Meet afstanden in rechte lijnen of volg uw route terwijl u buiten loopt.",
+  "introFieldTitle": "Gemaakt voor echt veldwerk",
+  "introFieldBody": "Meet eenvoudig boerderijen, percelen, eigendommen en buitenterreinen.",
+  "paywallTrialTitle": "Gratis proefperiode van {days} dagen",
+  "@paywallTrialTitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "paywallThenMonthly": "Dan {price}/maand",
+  "@paywallThenMonthly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallMonthlyTitle": "Maandplan",
+  "paywallMonthlyPrice": "{price} / maand",
+  "@paywallMonthlyPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallYearlyTitle": "Jaarplan",
+  "paywallYearlyOnly": "Slechts {price} per jaar",
+  "@paywallYearlyOnly": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallBestPrice": "Beste prijs",
+  "paywallMostPopular": "Meest populair",
+  "paywallStartFreeTrial": "Gratis proefperiode starten",
+  "paywallTrialThenYearly": "{days} dagen gratis, daarna {price}/jaar",
+  "@paywallTrialThenYearly": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallPricePerYear": "{price}/jaar",
+  "@paywallPricePerYear": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "paywallCancelAnytime": "Annuleer op elk gewenst moment",
+  "paywallTermsTrialMonthly": "{days} dagen gratis, daarna {price}/maand. Wordt automatisch verlengd. Je kunt op elk gewenst moment opzeggen in {store}.",
+  "@paywallTermsTrialMonthly": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumPromptTitle": "Ga voor Premium",
+  "premiumPromptPhotos": "Je kunt gratis maximaal {count}-foto's aan een meting toevoegen. Upgrade naar Premium om meer toe te voegen.",
+  "@premiumPromptPhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "premiumPromptUpgrade": "Upgraden",
+  "premiumBadge": "Premium",
+  "languageChooseTitle": "Kies uw taal",
+  "premiumPromptMapStyleReward": "{style}-kaarten zijn een Premium-functie. Bekijk een korte advertentie om deze te gebruiken totdat u de app sluit, of upgrade voorgoed.",
+  "@premiumPromptMapStyleReward": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStyleUnlocked": "{style}-kaart ontgrendeld totdat u de app sluit.",
+  "@mapStyleUnlocked": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "mapStyleAdDismissed": "Bekijk de advertentie tot het einde om deze kaart te ontgrendelen.",
+  "pdfReportTitleArea": "Landmetingsrapport",
+  "pdfReportTitleDistance": "Afstandsmetingsrapport",
+  "pdfReportTitleWalk": "Loopmetingsrapport",
+  "pdfReportSubtitle": "Geëxporteerde samenvatting van een opgeslagen meting",
+  "pdfHeaderLabel": "Meetrapport",
+  "pdfFooterGenerated": "Gegenereerd door LandMeasure",
+  "pdfFooterEstimate": "GPS-/kaartmetingen zijn schattingen en kunnen per apparaat en omgeving verschillen.",
+  "pdfPage": "Pagina {page} van {pages}",
+  "@pdfPage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "pages": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfName": "Naam van meting",
+  "pdfType": "Type",
+  "pdfDateSaved": "Datum opgeslagen",
+  "pdfReportId": "Rapport-ID",
+  "pdfSummary": "Samenvatting van metingen",
+  "pdfArea": "Oppervlakte",
+  "pdfPerimeter": "Omtrek",
+  "pdfDistance": "Afstand",
+  "pdfDuration": "Duur",
+  "pdfPoints": "Punten",
+  "pdfSegments": "Segmenten",
+  "pdfMethod": "Methode",
+  "pdfSubBoundaryVertices": "Grenshoekpunten",
+  "pdfSubRoutePoints": "Routepunten",
+  "pdfSubTrackPoints": "GPS-trackpunten",
+  "pdfSubSegments": "Tussen punten",
+  "pdfMethodMapPoints": "Kaartpunten",
+  "pdfMethodPolygon": "Handmatige veelhoek",
+  "pdfMethodRoute": "Handmatig traject",
+  "pdfAreaNotClosed": "Niet gesloten",
+  "pdfAreaNotClosedSub": "Route vormde geen lus",
+  "pdfMapBoundary": "Kaart en vorm",
+  "pdfMapCaption": "Schematische voorstelling van de gemeten vorm · Het noorden is boven",
+  "pdfCenter": "Middelpuntcoördinaten",
+  "pdfMapStyle": "Kaartstijl",
+  "pdfDisplayUnits": "Weergave-eenheden",
+  "pdfCoordinates": "Coördinaten",
+  "pdfCoordinatesHint": "De punten worden weergegeven in de volgorde waarin ze zijn gemeten.",
+  "pdfColPoint": "Punt",
+  "pdfColLatitude": "Breedtegraad",
+  "pdfColLongitude": "Lengtegraad",
+  "pdfColSegment": "Segment",
+  "pdfColNote": "Opmerking",
+  "pdfNoteStart": "Begin",
+  "pdfNoteEnd": "Einde",
+  "pdfNotePhoto": "Foto bijgevoegd",
+  "pdfMorePoints": "Nog {count} punten worden niet getoond. Exporteer CSV om alle punten te krijgen.",
+  "@pdfMorePoints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfNotes": "Meetnotities",
+  "pdfPhotos": "Terreinfoto’s",
+  "pdfPhotoN": "Foto {n}",
+  "@pdfPhotoN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfPhotoPoint": "Bij {point}",
+  "@pdfPhotoPoint": {
+    "placeholders": {
+      "point": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfCaptured": "Gemaakt op {date}",
+  "@pdfCaptured": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfMorePhotos": "Nog {count} foto’s worden niet getoond.",
+  "@pdfMorePhotos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfExportInfo": "Exportinformatie",
+  "pdfSource": "Bron",
+  "pdfSourceAndroid": "LandMeasure Android",
+  "pdfSourceIos": "LandMeasure iOS",
+  "pdfCoordFormat": "Coördinaat formaat",
+  "pdfCoordFormatValue": "WGS 84 breedtegraad/lengtegraad",
+  "pdfExported": "Geëxporteerd",
+  "pdfCompanion": "Andere exportformaten",
+  "pdfAccuracyTitle": "Nauwkeurigheidsmelding:",
+  "pdfAccuracyBody": "Dit rapport vat metingen samen die zijn berekend op basis van kaartpunten en/of GPS-gegevens van het apparaat. Resultaten zijn schattingen en kunnen variëren afhankelijk van de nauwkeurigheid van het apparaat, satellietzichtbaarheid, kaartbeelden, terrein en waar grenspunten zijn geplaatst. Dit document is geen gecertificeerd kadastraal of legaal landonderzoek, tenzij afzonderlijk geverifieerd door een geautoriseerde onderzoeksprofessional.",
+  "exportPdf": "PDF-rapport",
+  "exportPdfSubtitle": "Printbaar rapport met kaart, coördinaten, aantekeningen en foto's",
+  "projectLimitTitle": "Vrije projectlimiet bereikt",
+  "projectLimitMessage": "Je hebt 4 gratis projecten. Bekijk een volledige advertentie om nog een project te maken, of upgrade naar Premium voor een onbeperkt aantal projecten.",
+  "projectRewardRequired": "Bekijk een advertentie tot het einde om nog een project te ontgrendelen. Als er geen advertentie beschikbaar is, probeer het later opnieuw of upgrade naar Premium."
+}

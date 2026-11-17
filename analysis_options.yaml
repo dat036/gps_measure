@@ -1,0 +1,17 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "lib/l10n/gen/**"
+    - "test/drift/*/generated/**"
+    - "build/**"
+  errors:
+    # Generated Riverpod/Freezed parts are fine to reference.
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    # App code, not a published package — doc comments where they add value.
+    public_member_api_docs: false

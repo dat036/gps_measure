@@ -1,0 +1,9 @@
+// Flavor defaults. Environment-dev.xcconfig (generated from
+// env/dev.json by scripts/prepare_ios_env.py) overrides service keys.
+FLAVOR = dev
+BUNDLE_ID_SUFFIX = .dev
+APP_DISPLAY_NAME = LandMeasure Dev
+ADMOB_APP_ID_IOS = ca-app-pub-3940256099942544~1458002511
+MAPS_API_KEY_IOS =
+FACEBOOK_APP_ID_IOS =
+FACEBOOK_CLIENT_TOKEN_IOS =
